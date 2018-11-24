@@ -45,6 +45,10 @@ M2:		Installation Requirement
 					windows 2012 standard 64bit
 				web client
 					latest browser internet explorer 11, chrome, 
+					web client base url
+					http://DESKTOP-CDIPFSE:8080/DynamicsNAV110/Webclient/
+					windows client  base url
+					dynamicsnav://DESKTOP-CDIPFSE:7046/DynamicsNAV110/
 				Mobile Device
 					IOS 8.4 later
 					Android 4.4.3 or higher
@@ -74,13 +78,51 @@ M3:		Microsoft Dynamics NAV Server
 					open Dynamics NAV 2018 Administration or powershell --> click add intance --> give name --> give port number --> 
 				
 			manage the server instance
+				NAV 2018 Security --> Database --> Objects level --> record level
+				Development Environment connecting and creating , altering and deleting database
 				
 			administration
+				NAV Task Schedular
+				search for job queue in NAV, configure the task, will run the task automatically
+				Task Schedular should be enable in server instance
+				
+				creating server instance
+					open NAV 2018 administration --> click add instance --> give name --> inter port number --> click save 
+					restart the instance
+				disabling web services
+					open NAV 2018 administration --> click instance --> expend SOAP tab --> uncheck the enable option --> save and 
+					restart the instance
+					
 			database backup & restore
 			configure SQL server authentication
 			best practice analyser
+				installation of BPA
+					copy BPA folder from NAV Installation media to local computer --> run the setup --> click start scanning button
+					this will give information
+					
 			powershell API
+				powershell in administration ( used for administration)
+				powershell in development ( used for development)
+				both above option are available from start menu of windows
+				
 			Wide area network connections
+				first create server instance with navuserpassword & certificate footprint
+				makecert.exe is not installed by default --> it can be install by installing visual stadio or windows server development kits
+				https://www.microsoft.com/en-us/download/details.aspx?id=8279
+				Microsoft Windows SDK for Windows 7 and .Net Framework 4
+				
+				to create certificate --> open command prompt --> navigate to folder --> c:\program files (x86)\windows kits\10\bin\x64
+				-->run makecert.exe --> follow the wizard 
+				
+				or we can create certificate using buitain script available in NAV 2018 installation media
+				NAV 2018\WindowsPowerShellScripts\NAVCertificateAdministration
+				
+				once certificate generated -->register the certificate in certificate store
+				in certificate option in control panel--> open property --> details tab
+				click thumbprint --> copy --> paste in notepad --> remove all spaces
+				then paste this thumbprint in NAV instance and make sure on SOAP AND ODATA 
+				service SSL is enabled.
+				
 			help server
 			
 M4:		Microsoft Dynamics NAV Client
