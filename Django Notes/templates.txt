@@ -1,0 +1,7 @@
+Templates
+Create templates folder in foodtaskerapp folder
+create home.html file templates folder
+
+<body>
+	<h1>Welcome Python </h1>
+</body>

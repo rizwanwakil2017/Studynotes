@@ -1,0 +1,141 @@
+What is Shell
+	The shell is a program that takes keyboard commands and passes them to the operating system to carry out. 
+	Almost all Linux distributions supply a shell program from the GNU Project called bash. 
+	The name “bash” is an acronym for “Bourne Again SHell”
+	
+Teminal
+	Terminal is used to access the SHell to enter the commands
+
+Terminal Lunch
+	When we first log in to our system our current working directory is set to our home directory.
+	After terminal lunch, we should see prompt like below
+	username@computer_name:pwd$
+	it will usually include your username@machinename, followed by the current working
+	directory and a dollar sign if normal user or # sign for root user.
+	
+	after the $ sign we will enter linux commands.
+	
+Commands History
+	we can recall entered commands by pressing up & down arrows keys from keyboard
+
+Simple Commands
+	date						this will show the date
+	cal							this will show current month calendar
+	df	-h						this will show disk information
+	free						this will show RAM information
+	Navigation commands			
+	pwd							print working directory (current location)
+	cd							change directory. only cd command change to home directory.
+	cd .. or cd - 				both command have same result, takes to one level up
+	cd ~						change to home directory
+	ls							list directory contents
+	file						determine file type. for example command file file_name will show type of file mean text file, picture etc
+	less						view file contents. read text file. use /word to search , n from keyboard for find next , q to quit. page 40 to less information
+	zless						view compressed file content. zip files
+	sudo su						change user to root user
+	cp							copy files only
+	cp -r						copy directory
+	mv							move / rename files and directories
+	mkdir						create directory
+	rmdir						remove directorie
+	rm							remove files only
+	rm -rf						remove files and directories
+	ln							creae hard and symbolic links
+	ln -s						create soft link
+	stat						show file or directory statistic
+	
+	type						indicate how command is interpreted
+	which						show command path
+	man							display help & information regarding program manuall pages
+	apropos	word				search for all command having word. for example apropos disk. display appropriate command list
+	info						display command info entry
+	info coreutils				show full list of command & help
+	whatis						command brief description
+	alias name='string'			create an alies for command. string consist on multiple command like cd /usr/; cd ~; ls
+	unalias name				delete the alies
+	help command_name			show help regarding command_name
+	command_name --help			show help regarding command_name
+	
+	I/O command
+	cat							read file and display output to screen & concatenate files
+	sort						sort line of text
+	uniq						report or omit repeated lines
+	grep						print line matching pattren
+	wc							word count
+	head -n						output first part of file. show only 10 line but -n adjust number of lines
+	tail -n						output last part of file. show only 10 line but -n adjust number of lines
+	tee							read from standard input and write to standard output and files
+	
+	>							this is redirection operator
+	command_name > file.txt		command output will be send to file.txt 
+	> file.txt					create empty file with file.txt name
+	>>							this is redirection operator as well, it will create file is not exist otherwise append to existing file
+	
+	command_name &> file_name.txt	this command will send both result & error to file_name.txt
+	
+	
+	|							this is called pipeline operator
+	command 1 | command 2		command 1 result will be input to command 2
+	sort						used in pipeline command to sort the result
+	uniq						used in pipeline command to remove duplicates
+	
+	echo text					display text 
+	echo *						show pwd file & directories
+	
+	clear						clear screen
+	history						show command history list
+	
+	
+	
+	
+	
+Navigation commands			
+	above commands under Navigation commands section are used to navigate the file system on Linux system. Linux system organize its files in 
+	tree structure called hierarchi directory structure.
+	the first directory in file system is called root directory, represented by (/). root directory contains sub directories and files.
+	
+	Note:
+		Linux files system have single files structure for each storage device unlike windows operating system which have seperate FS for each storage
+		device (harddisk partition). 
+		In Linux storage device are attached or mount at various points in file system.
+		
+	Changing Working Directory
+		to change the directory, we use cd command followed by pathname. pathname can be classified in two ways
+			1.	absoulate pathname		complete the pathname starting from root directory and pointing to PWD. like /usr/bin/
+			2.	relative pathname		start from working directory. To do this, we use . and .. symbols. the . symbol represent current directory
+										while .. symbol represent working directory's parent directory
+	Listing files and Directories with ls -l command
+		-rwx rwx rwx 			first - represent normal file, if it's d means directory, if it's l mean link file
+								first three charecters (rwx) represent file owner rights
+								second three charecters (rwx) represent group rights
+								third three charecters (rwx) represent everyone rights
+								
+Working on Files & Directories
+	Wildcards
+			*				Match any charecter
+			?				Match any single charecter
+			[charecter]		Match any charecter members of charecters
+			[!charecters]	oposite of above
+			[[:class:]]
+			
+			classs = [:alnum:] or [:alpha:] or [:digit:] or [:lower:] or [:upper:]
+			
+	creating hard link 
+		ln -s file link		(command syntex)
+		ln -s file_name link_name
+		
+Creating Play Ground
+	create a directory with name playground in home directory using mkdir command and create two more directories dir1 and dir2 inside playground
+	copy passwd file from etc directory to playground directory
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	

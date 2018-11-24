@@ -1,0 +1,96 @@
+What is Object
+	a tengible thing that we can touch, sense , feel and munipulate is called object
+	collection of data and associated behaviours is called object
+
+Class
+	class describe objects. they are blue print for creating objects
+	
+Attribute or Memebers
+	data in class is called attribute or memembers
+	
+Methode or Functions
+	behaviours are represented by methods in class
+
+Encapsulation or Information Hiding
+	the processing of hiding the implementation or functional detail is called Encapsulation or Information Hiding
+
+Abstraction
+	
+Composition
+	composition is act of collecting several objects togather to create new one is called composition
+	
+Inheritance
+	Inheritance is a fom of family tree.
+	
+Multiple Inheritance
+
+
+Polymorphism
+	
+	
+
+Creating Class
+	class MyFirstClass:
+		pass
+
+Creating Object of above class from interactive mode
+	run the following command from command prompt
+		python -i class.py
+		a = MyFirstClass()
+		b = MyFirstClass()
+		print(a)
+		print(b)
+		
+Adding Attribute to class
+	class Point:
+		pass
+		
+	p1 = Point()
+	p2 = Point()
+	
+	p1.x = 5
+	p1.y = 4
+	
+	p2.x = 3
+	p2.y = 6
+	
+	
+	
+	
+	
+
+
+
+class Point:
+	def __init__(self, x=0 , y=0 ):		# constructor
+		self.x = x
+		self.y = y
+		or 
+		self.move(x, y)
+		
+		
+	def reset(self):
+		self.x = 0
+		self.y = 0
+	def move(self, x , y);
+		self.x = x
+		self.y = y
+		
+	def calc_distance(self, other_obj2):
+		return math.sqrt(
+			(self.x - other_obj2.x)**2 + (self.y - other_obj2.y)**2
+		)
+		
+
+#  creating class objects
+
+obj1 = Piont()
+
+obj1.x = 10
+obj1.y = 20
+
+print(obj1.x, obj1.y)
+
+obj1.function_name()
+
+print(obj1.x, obj1.y)

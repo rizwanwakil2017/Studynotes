@@ -1,0 +1,21 @@
+Setup
+1.	Install Python 3.6 & Virtualenv application using pip
+2.	create free account on heroku website and also heroku toolbelt
+3.	install postman from getpostman.com for API testing
+4.	install xcode for apple app development 
+
+5.	Create foodtasker_venv folder on desktop and make virtualenv environmnet in it 
+	and install Django==1.10 version in it
+6.	Create folder with name project on desktop and inside this folder
+	create Project with name (foodtasker) using django-admin 
+7.	using migrate command, create the sqlit database for project and run the 
+	development server
+8.	make small changes in settings.py file	like adding foodtasker app to installed app and timezone change etc
+
+9.	Create the application (foodtaskerapp) using startapp command.
+10.	install 3rd party application like django-debug-toolbar
+11.	install git 
+12.	create .gitignore file
+13. add the above change to git with commit msg "Install django create foodtaskerapp app"
+14.	add project to pycharm
+		

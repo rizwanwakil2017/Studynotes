@@ -1,0 +1,7 @@
+Writing First View
+
+create a view funtion like below in view.py file
+
+def home(request):
+	return render(request, "home.html", {})
+	

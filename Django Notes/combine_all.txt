@@ -1,0 +1,224 @@
+Setup
+
+1.	Install Python 3.6 or 3.5.2 & Virtualenv application using pip
+2.	create free account on heroku website and also install heroku toolbelt on local system
+3.	install postman from getpostman.com for API testing as a chrome extension
+4.	install xcode 8.0 for apple app development 
+5.	install git 
+
+Intialize Project
+
+5.	Create myvirtualenv folder on desktop and make virtualenv environmnet with name foodtasker in it 
+	and install Django==2.1.1 version in it
+6.	Create Project with name (foodtasker) using django-admin on Desktop
+7.	using migrate command, create the sqlit database for project and run the evelopment server
+8.	in foodtasker project folder, initilize git repository using git init command
+9.	add project to pycharm using open folder and select foodtasker folder then from settings choose virtualenv
+10.	create .gitignore file and .idea , db.sqlit file to it
+11.	add changes to git and commit with message "Init git"
+
+Creating App in Project
+1.	create app with name foodtaskerapp using command startapp foodtaskerapp
+2.	make small changes in settings.py file	like adding foodtasker app to installed app and timezone change etc
+
+creating home page 
+
+1.	create view with name home in views.py file in foodtaskerapp file
+2.	create url for it in urls.py in foodtasker folder
+3.	create template home.html for it in foodtaskerapp--> templates/home.html
+4.	test it by running development server
+
+create admin site for application
+
+1.	run the migrate command
+2.	create superuser
+3.	run the local server
+4.	access url 127.0.0.1:8000/admin
+5.	login with superuser username and password
+
+adding bootstrap to project
+
+1.	create a folder with name static in application (foodtasker)
+2.	create css , img , js and font folder in static folder
+3.	download bootstrap from getbootrap.com and extract it , copy css , js & font folder to static folder in application (foodtasker)
+4.	open home.html file and on top add {% load staticfiles %} and add link in header portion <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet" data="text/css" />
+5.	add style.css file under css folder for custom css styling
+6.	enter link for custom stylesheet and js script same like css file
+7.	add code in urls.py file to support static file
+
+adding Media settings to Project
+1.	add the media settings in settings.py file (MEDIA_URL = 'media/' and MEDIA_ROOT=os.path.join(BASE_DIR, 'media') and 
+	add the context processor in templates
+2.	add media and static file setup in urls.py file
+
+Functionality 
+
+add sign-in and sign-out functionality to application
+
+1.	open url.py and import login , logout from django.contrib.auth import views as auth_views
+2.	create url  path('restaurant/', include('django.contrib.auth.urls')), 
+	for login create registration folder in template folder, inside registration folder create login.html in foodtaskerapp
+3.	enter following code in login.html file --> copy all the code from home.html file and then enter below code in body
+	<form method ='post'>
+		{% csrf_token %}
+		{{form}}
+		<button type submit>sign in </button>
+	</form>
+4.	add LOGIN_REDIRECT_URL = '/'  and LOGOUT_REDIRECT_URL = '/' in settings.py file		
+5.	Enter below code in home.html file
+	<h1>Welcome to foodtasker app</h1>
+    {% if request.user.is_authenticated %}
+        Hi, {{ user.username }}!
+        <p><a href="{% url 'logout' %}">logout</a></p>
+    {% else %}
+        <p>You are not logged in</p>
+        <a href="{% url 'login' %}">Login</a>
+    {% endif %}
+
+
+Add registration functionality to application
+
+1.	create restaurant model with fields ( user = onetoonefiled (User) , name , phone , address , logo )
+2.	install pillow to support images (pip install pillow==3.3.0)
+3.	create url for registration url(r'^restaurant/sign-up/$', views.restaurant_sign_up, name='restaurant_sign_up'),
+4.	create restaurant-sign-up view and redirect to sign_up.html template
+5.	create the sign-up.html file
+6.	create form for registration based on User and Restaurant model
+7.	create Userform with fields (username, password, first_name, last_name, email) and two extra fields (email and password) for authentication purpose
+8.	create Restaurantform with fields (name, phone, address, logo)
+9.	create email and password fields in Userform
+10.	Update view to handle the post form data and authentication the login and redirect to home page
+11.	add the restaurant model to admin site
+12.	add the media settings in settings.py file (MEDIA_URL = 'media/' and MEDIA_ROOT=os.path.join(BASE_DIR, 'media') and add the context processor in templates
+13.	add static file setup in urls.py file
+
+
+Hosting Project on Heroku
+
+1.	from command propt virtualenv activated --> from foodtasker folder --> enter heroku login command--> 
+	login with rizwanwakil2018@gmail.com and password m@g1t786 -->type heroku create --> 
+	type pip install gunicorn==19.6.0 --> pip freeze --> copy the installed app in heroku, and paste in requirements.txt file in project
+2.	create a file (runtime.txt) in foodtasker folder and enter following code in it
+		python-3.6.3
+	edit settings.py for ALLOWED_HOSTS = ['*']	
+		
+3.	create requirements.txt file in project and paste the installed apps in heroku
+
+4.	create another file with name Procfile with out extension and enter following code in it
+	web: gunicorn foodtasker.wsgi --log-file - 
+	
+Configure static resources on heroku
+
+1.	Install whitenoise using pip install whitenoise==3.2.1 and put the whitenoise in requirements.txt
+2.	open settings.py file and enter STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles') and create staticfiles folder at foodtasker folder level
+3.	open wsgi.py file and enter following code at end of file	
+	from whitenoise.django import DjangoWhiteNoise
+	application = DjangoWhiteNoise(application)
+
+Configure Database on Heroku
+1.	install dj-database-url on heroku using pip install dj-database-url==0.5.0 and put the dj-database-url in requirements.txt
+2.	also enter psycopg2==2.7 in requirements.txt
+3.	enter the following code in settings.py file at the end of file
+	import dj-database-url
+	db_from_env = dj-database-url.config()
+	DATABASES['default'].update(db_from_env)
+
+Shifting code from local to Heroku
+1.	add all code in git commit
+2.	from terminal push code to heroku using ( git push heroku master )
+3.  after push success, issue migrate command on heroku (heroku run python manage.py migrate)
+4.	create superuser on heroku using (heroku run python manage.py createsuperuser)
+5.	type (heroku open) command to open website
+
+
+
+Authentication Functionality with Facebook
+1.	create facebook app with name foodtasker by loging to facebook account (developers.facebook.com)
+2.	save app id (2024968834489583) and and app secret code (0c548ff28af8368f229447dbf893ca10) and add plateform from settings (http://localhost:8000)
+
+3.	for facebook authentication for customer and drivers --> 
+	pip install django-rest-framework-social-oauth2
+4. 	follow the facebook setup from below link and setup
+	(https://github.com/RealmTeam/django-rest-framework-social-oauth2)
+5.	enter into requirements.txt (pip freeze > requirements.txt)
+
+6.	make sure the django version will be updated to latest version make sure to import below line in urls.py file	
+	from django.conf.urls import url
+
+7.	enter in urls.py file url('^api/social/', include('rest_framework_social_oauth2.urls')),
+8. 	make makemigrations and migrate
+
+9.	open admin and add application in django Oauth toolkit 
+	click add application, this will create client id and client secret
+	user should be supper user (1)
+	client type should be confidential
+	authoriztion grant type should be resource owner password based
+	name may be any thing
+	
+	
+Creating New User from facebook API in our application
+(login from facebook to our application )
+1.	open postman
+2.	enter localhost:8000/api/social/convert-token
+3.	click param
+4.	enter key (grant_type) and value (convert_token)
+	enter key (client_id) and value(from admin copy)
+	enter key (client_secret) and value( from admin copy)
+	enter key (backend) and value (facebook)
+	enter key (token) and value (copy from https://github.com/RealmTeam/django-rest-framework-social-oauth2 )
+	
+	make sure method is POST
+	Click on send button
+
+To revoke the token use following procedure
+(loggout from facebook to our application ), so access token need to be delete on logged out
+1.	open postman
+2.	enter localhost:8000/api/social/revoke-token
+3.	click param
+4.	enter key (client_id) and value(from admin copy)
+	enter key (client_secret) and value( from admin copy)
+	enter key (token) and value from (django admin auth toolkit access token)
+
+	make sure method is post
+	click on send button
+5.	check the toolkit access token, request access token will be removed
+
+
+Attenticated Customers & Drivers
+1. create a model for custom in models.py file with fields (user = onetoonefiled related name=customer , avatar lenth 500, phone lenth 500 & blank = true )
+	address lenth 500 blank true 
+
+2. create a model for Driver in models.py file with fields (user = onetoonefiled related name=customer , avatar lenth 500, phone lenth 500 & blank = true )
+	address lenth 500 blank true 	self.user.get_full_name()
+	
+3.	add both models to admin site
+
+4.	makemigrations & migrate
+	
+5. go to https://python-social-auth.readthedocs.io/en/latest/pipeline.html and copy SOCIAL_AUTH_PIPELINE and paste at end of settings.py file
+6.	create a file with name social_auth_pipeline in foodtaskerapp and inside the file create function with name create_user_by_type():
+	and write follow code in it
+	def create_user_by_type(backend, user, response, *args, **kwargs):
+    if backend.name == 'facebook':
+        avatar = 'http://graph.facebook.com/%s/picture?type=large' % response['id']
+	if request['user_type'] =='driver' and not Driver.objects.filter(user_id=user.id):
+		Driver.objects.create(user_id=user.id, avatar=avatar)
+	elif not Customer.objects.filter(user_id=user.id):
+		Customer.objects.create(user_id=user.id, avatar=avatar)
+		
+7.	test with postman now.
+	1.	open postman
+	2.	enter localhost:8000/api/social/convert-token
+	3.	click param
+	4.	enter key (grant_type) and value (convert_token)
+		enter key (client_id) and value(from admin copy)
+		enter key (client_secret) and value( from admin copy)
+		enter key (backend) and value (facebook)
+		enter key (token) and value (copy from https://github.com/RealmTeam/django-rest-framework-social-oauth2 )
+		enter key (user_type) and value (driver or customer)
+		
+	make sure method is POST
+	Click on send button
+	
+
+

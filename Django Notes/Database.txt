@@ -1,0 +1,3 @@
+Create Initial Database using the following commands
+	python manage.py migrate
+	

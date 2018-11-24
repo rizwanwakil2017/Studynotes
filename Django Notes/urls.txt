@@ -1,0 +1,10 @@
+URLs
+Now create urls.py file in application and give link in main urls.py file
+
+copy project urls.py file and paste in application, now delete the admin link
+and add the url for index view like below
+
+from . import views
+
+path('', views.home, name="home")
+
