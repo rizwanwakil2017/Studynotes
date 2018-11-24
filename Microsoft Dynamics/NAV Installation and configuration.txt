@@ -1,0 +1,72 @@
+M1:		NAV 2017 as ERP system
+M2:		Multiple Client support
+		Windows Client, Web Client, Tablet Client and Phone Client
+M3:		Browse Application Areas
+M4: 	User Interface
+M5:		Personalize User Interface
+M6:		Basic Functionality
+M7:		Master Data for PO & SO
+M8:		Purchase & Sale Proces
+M9:		Technology Overview
+
+
+NAV 2017 Installation
+M0:		Course Introducation
+M1:		Architecture
+			core components
+				client option:
+					windows, web, tablet, outlook and phone client
+					office 365 experiance, SOAP & OData
+					Web Services & NAV Application Services
+				server
+					communicate b/t client and DB
+					execute business logic
+					web services & NAS
+				database
+					SQL Server
+					
+			Installation Options
+				client, developer, server
+				custom components
+				preconfigure components
+M2:		Installation Requirement
+			Windows/web/help server components
+				windows 7 prof 64 bit with serice pack 1
+				windows 8, 8.1 or 10 64bit
+				windows 2012 standard 64bit
+				IIS 7.5 or higher
+			SQL Server components
+				SQL Server 2014 or 2012 64bit express , standard or enterprise
+				Azure SQL V12 standard
+			clients components
+				windows client
+					windows 7 prof 64/32 bit serice pack 1 
+					windows 8, 8.1 or 10 64/32bit
+					windows 2012 standard 64bit
+				web client
+					latest browser internet explorer 11, chrome, 
+				Mobile Device
+					IOS 8.4 later
+					Android 4.4.3 or higher
+					1GB RAM
+					4" Screen size for smartphone
+					7" Screen size for tablet
+			additional components like sharepoint, ADCS
+					.Net Framework
+					windows powershell
+					Report viewer
+					NAV as an app for sharepoint
+						Windows server 2012 standard 64bit
+						sharepoint 2013 serice pack 1
+					ADCS
+						MSXML 6.0
+						Telnet or Microsoft Windows HyperTerminal
+						VT100 Plug-in
+M3:		Microsoft Dynamics NAV Server
+M4:		Microsoft Dynamics NAV Client
+M5:		Development Environment
+M6:		Windows Client Personalize
+M7:		Deployment
+M8:		Microsoft Dynamics Powershell
+M9:		Upgrading to NAV 2017
+M10:	Course Review 
