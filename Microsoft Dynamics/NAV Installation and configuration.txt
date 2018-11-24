@@ -63,6 +63,26 @@ M2:		Installation Requirement
 						Telnet or Microsoft Windows HyperTerminal
 						VT100 Plug-in
 M3:		Microsoft Dynamics NAV Server
+			installation & configuration
+				we can edit configuration by three methods ( NAV Administration, Powershell or CustomSettings.config file edit manually)
+				
+				C:\Program Files\Microsoft Dynamics NAV\110\Service is default installation path
+				here we can see CustomSettings.config XML, we can edit this file for configuration
+				after change save file and open Dynamics NAV 2018 Administration and restart the service
+				
+				to create another instance of NAV Service
+					open Dynamics NAV 2018 Administration or powershell --> click add intance --> give name --> give port number --> 
+				
+			manage the server instance
+				
+			administration
+			database backup & restore
+			configure SQL server authentication
+			best practice analyser
+			powershell API
+			Wide area network connections
+			help server
+			
 M4:		Microsoft Dynamics NAV Client
 M5:		Development Environment
 M6:		Windows Client Personalize
