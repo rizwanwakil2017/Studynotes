@@ -127,7 +127,37 @@ M3:		Microsoft Dynamics NAV Server
 			
 M4:		Microsoft Dynamics NAV Client
 M5:		Development Environment
+			Installation
+				Developer Enviroment is part of client part
+				run setup --> click client --> select developer enviroment
+			Managing Database 
+				with managing database means we can open , close, create or delete database.
+				we can alter the database as well
+			Managing License
+				we can upload developer license by click change button.
+			Managing Objects
+				1-9999	reserved for microsoft
+				10000-49999  reserved for microsoft as wel
+				50000-99999  for customer use
+
+			Database Schema Synchoronization
+				at time of saving object, we have option to syncronize the objects
+			functionaliyt of Object Designer
 M6:		Windows Client Personalize
+			Windows Client Desging
+				profile assign to each user --> to assign profile to user --> go to RoleTailored Client --> click User Personalization
+				assign profile
+				we can create group and add multiple user in this group and assign profile to group, so all user will have same profile
+				search for User Groups and create one group and add user and assign profile to it.
+
+			Configuration
+			Customize the Navigation Pane
+				Navigation page at right side
+				at top address bar
+				content area in middle
+			Customize Pages
+			Managing Users
+			
 M7:		Deployment
 M8:		Microsoft Dynamics Powershell
 M9:		Upgrading to NAV 2017
