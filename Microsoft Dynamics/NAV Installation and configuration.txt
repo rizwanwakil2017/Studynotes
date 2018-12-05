@@ -155,10 +155,21 @@ M6:		Windows Client Personalize
 				Navigation page at right side
 				at top address bar
 				content area in middle
+				To customize the client as a administrator for many user, use following procedure
+				go to C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client location from command prompt
+				run the client with following command Microsoft.Dynamics.Nav.Client.exe /?
+				this will give give help, how to customize the profile.
+
+				
 			Customize Pages
 			Managing Users
-			
+				to create user go to users --> click new --> to create nav user --> fill the general part --> then fill the NAV authentication
+				portion -->
+			To use NAV username & password --> on application server --> the instance the credential type should be setup to NAVUSERPASSWORD
+			by default it's set to windows
+
 M7:		Deployment
 M8:		Microsoft Dynamics Powershell
+			
 M9:		Upgrading to NAV 2017
 M10:	Course Review 
