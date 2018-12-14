@@ -94,7 +94,10 @@ M3:		Microsoft Dynamics NAV Server
 					restart the instance
 					
 			database backup & restore
+				from sql server stadio management, we can backup & restore database
+				
 			configure SQL server authentication
+			
 			best practice analyser
 				installation of BPA
 					copy BPA folder from NAV Installation media to local computer --> run the setup --> click start scanning button
@@ -124,52 +127,15 @@ M3:		Microsoft Dynamics NAV Server
 				service SSL is enabled.
 				
 			help server
+				run the NAV 2018 SETUP --> custom setup --> check help server option
+				--> finish the wizard
+				open iis -->
 			
 M4:		Microsoft Dynamics NAV Client
+			
 M5:		Development Environment
-			Installation
-				Developer Enviroment is part of client part
-				run setup --> click client --> select developer enviroment
-			Managing Database 
-				with managing database means we can open , close, create or delete database.
-				we can alter the database as well
-			Managing License
-				we can upload developer license by click change button.
-			Managing Objects
-				1-9999	reserved for microsoft
-				10000-49999  reserved for microsoft as wel
-				50000-99999  for customer use
-
-			Database Schema Synchoronization
-				at time of saving object, we have option to syncronize the objects
-			functionaliyt of Object Designer
 M6:		Windows Client Personalize
-			Windows Client Desging
-				profile assign to each user --> to assign profile to user --> go to RoleTailored Client --> click User Personalization
-				assign profile
-				we can create group and add multiple user in this group and assign profile to group, so all user will have same profile
-				search for User Groups and create one group and add user and assign profile to it.
-
-			Configuration
-			Customize the Navigation Pane
-				Navigation page at right side
-				at top address bar
-				content area in middle
-				To customize the client as a administrator for many user, use following procedure
-				go to C:\Program Files (x86)\Microsoft Dynamics NAV\110\RoleTailored Client location from command prompt
-				run the client with following command Microsoft.Dynamics.Nav.Client.exe /?
-				this will give give help, how to customize the profile.
-
-				
-			Customize Pages
-			Managing Users
-				to create user go to users --> click new --> to create nav user --> fill the general part --> then fill the NAV authentication
-				portion -->
-			To use NAV username & password --> on application server --> the instance the credential type should be setup to NAVUSERPASSWORD
-			by default it's set to windows
-
 M7:		Deployment
 M8:		Microsoft Dynamics Powershell
-			
 M9:		Upgrading to NAV 2017
 M10:	Course Review 

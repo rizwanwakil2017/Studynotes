@@ -1,0 +1,152 @@
+Module 01:		Set Up a Company using Rapidstart
+					what is Rapidstart Services
+					Rapidstart Services Components
+						Configuration Worksheet
+							assign a Rapidstart Service Implementer profile to user --> and login to NAV
+							click on Configuration worksheet --> work in CW --> click on question
+							--> export questionair in excel --> to create questionair--> click new -->
+							give name warehouse --> select table (5769) --> click update question --> click
+							ok --> remove unwanted questions --> 
+							
+							to import data we use template --> click template --> we can use existing template or
+							can create new template --> click new --> give name --> select table --> choose columns
+							
+						Configuration Packages
+							create and export configuration package
+							Steps	
+								1.	create configuration worksheet
+								2.	create configuration template
+								3.	create configuration questionairs
+								4.	create configuration package
+								5.	export configuration package
+								
+								click configuration worksheet --> for customer table and related tables
+								-->package code and package exist columns are blank --> select all line by
+								click at left corner --> click assign package button --> click new --> give name
+								give package name --> click ok --> click ok --> now click on package option 
+								--> before exporting package --> we have to choose which table should export with data and
+								which one not --> for example country table we want with all data but customer , vendor , item
+								we don't want --> so click in filter column infront of customer --> and put creteria 
+								click on export package --> save on desktop --> give name --> 
+								
+								Now to create new company based on Rapidstart Export Package --> search for company --> click new -->
+								give name --> open the new company -->it's a blank company --> click rapidstart wizard --> enter company info
+								--> step no. 4 is important --> click browse and select the package file create earlier -->
+								click OK --> For errors --> open package --> look for column (No. of package errors) --> click no. of errors
+								--> delete the errors values
+								
+								Now to import questionair --> first export the questionair in excel --> filled with help of customer
+								--> import to NAV --> Click questionair --> export to excel --> fill it --> click import questionair
+								-->check answer --> click apply answer
+								
+								Data Migration
+									table for which we want to import data should be included in package --> open the package --> select
+									customer --> No. of database record column show zero record --> select customer then choose fields -->
+									select the fields which we want to import data in it --> put the template in Data Template column (CUST000001)
+									--> export to excel --> fill the excel --> click excel menu --> choose import --> select excel --> OK
+									--> click no. of package record --> apply
+								
+								Field Maping
+									open package --> select customer --> click table --> field --> select country/region code --> click on mapping on ribbin
+									--> enter old value and new value
+								
+								Creating Missing Codes
+									if we are importing customer and have payment terms code which is not available in NAV --> then will be create automatically
+									open package --> select customer --> click table --> field --> select payment terms --> place check mark in create missing codes column
+									--> 
+								Assisted Setup
+									search for assisted setup --> migrate business data --> select source --> download template --> fill it --> finish
+									
+						Configuration Questionnair
+						Configuration Template
+						Rapidstart Service Wizard
+						Rapidstart Service Role Center
+						
+					Rapidstart Services Process Flow
+						Basic-->Configuration Worksheet-->Configuration Package-->.rapidstart
+						Manufact-->Configuration Worksheet-->Configuration Package-->.rapidstart
+						Addon-->Configuration Worksheet-->Configuration Package-->.rapidstart
+						Demo-->Configuration Worksheet-->Configuration Package-->.rapidstart
+						
+					Create and Export a Configuration Package
+					Data Migration Using Rapidstart Service
+					Setup New Company using Rapidstart Service
+Module 02:		Manage User
+					setup users & group
+						search for users --> click new --> give name --> select license type --> select authentication
+						search for user group --> click new --> give name --> give default profile --> we can assign permision to group
+						all user in this group will inhirant permision --> 
+					license type & authentication
+						license Type
+							full user
+							Limited User (full read, limited write permision)
+							Device only user
+							Window Group
+							External User
+						authentication
+							Window authentication
+							Access Control Service Authentication
+							NAV Password authentication
+							Office 365 Authentication
+							
+					working with permision & permision set
+						security
+							1.	Database Level
+							2.	Company Level
+							3.	Object Level (table, pages )
+							4.	Record Level
+							
+							search for permision set --> create new permision set --> 
+						Permission Set Recording
+							To record permision --> search permision set --> create new permision set --> click on permision --> click action
+							--> click recording
+							
+							now do the work in NAV --> Once work finish --> stop recording --> automatically permision will be created based on 
+							working
+					security filter
+					how to perform user specific setup
+					how to create, assign, work with user profile
+							search for rolecenter --> click profile --> click new to create new profile or select existing on
+							to assign to user search for rolecenter --> click personalization --> click user --> assign a profile
+Module 03:		Change Log Setup
+					setup changelog
+						search for changelog --> search for table --> enable change log --> NAV 2018 allow us at field level log -->
+					changelog entries
+						search for changelog -->
+Module 04:		Setup Number Series
+					how to create number series
+						search for No. Series in search --> click edit list --> click lines --> enter start number and end number
+						in list check default and manual option --> then assign number series to different setup pages
+						for example --> search sales receiable --> on numbering fast tab --> all numbering series are assign
+						
+									
+					how to create number series relations
+						creating number series in above way put limitation --> one number per series
+						to give second number series we use relationship --> for example for customer we have one number series
+						now we want to give different number for foriegn customer --> create another number series
+						--> assign line & numbering --> 
+						now select the original no. series which is assing in setup pages --> 
+						lick on relaship --> enter the newly created previous no. series of customer
+						--> buitain relaship for item is there in Cronus database
+					
+Module 05:		Setup Trail Codes
+					How to create source code & reason code and how to use
+						source code identified from where the transaction originate from --> link source code to document --> 
+						search for source code --> create source code --> now search for source code setup for assignmnet 
+					Search for reason code --> create new reson code --> when reason code is specified --> while entering the transaction
+					we can specify the reason code selecting from list.
+					
+					Using
+						Search for G/L register --> here we can see the trnasaction histroy with source code -->
+						
+Module 06:		Setup General Journel Template & Batches
+					purpose of General Journel and Journel Batches
+						template
+							batches
+								lines
+						to create general journel template --> search for general journel --> select general journel template --> 
+					how to create General Journel and Journel Batches
+Module 07:		Setup Posting Group
+Module 08:		Setup Dimensions
+Module 09:		Workflow
+Module 10:		Setup Document Approval and Manage Approval Workflows
