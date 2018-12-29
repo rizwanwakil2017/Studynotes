@@ -147,6 +147,61 @@ Module 06:		Setup General Journel Template & Batches
 						to create general journel template --> search for general journel --> select general journel template --> 
 					how to create General Journel and Journel Batches
 Module 07:		Setup Posting Group
+					Posting group are used for linking between Chart of Account
+						Setup Specific Posting Group		--> Specific Posting Group belong to balance sheet Accounts
+							Customer, Vendor, Inventory, Fixed, Bank, Job Posting Group are belong to Specific Posting Group
+						Setup General Posting Group			--> General Posting Group belong to Income Statement Account
+							General Business Posting Group
+									Who to Sell to ?
+									Who to Buy from ?
+							General Product Posting Group
+									What to Sell ?
+									What to Buy ? 
+						How to create General Posting Group
+								we can create or setup posting group from administration --> finance --> posting group setup
+						Setup VAT posting Group
+						How to create VAT posting group
 Module 08:		Setup Dimensions
+				dimension are tag which we are assigning to entries before posting transaction in NAV. there is no limit on dimension in NAV
+				
+				
+					How to setup dimension and dimension values
+						search for dimension --> create dimension and it's value
+					how to setup global dimension and shortcut dimension
+					how to setup dimension combination
+					single and multiple default dimension
+					account type default dimension
+					default dimension periorities
+					the possibility and resolution of conflit default dimension
 Module 09:		Workflow
+					What is workflow
+						workflow connect business process performed by users .when event occur and condition pass --> response send
+						search workflow --> check the template -->
+					how to setup workflow
+						1.	categories setup
+						2.	workflow user group
+						3.	Notification setup
+								Notification Template
+									notification setup
+								Notification Schedule
+								SMTP Mail Setup
+									stmp setup 
+						4.	Job Queues
+					how to create workflow
+						based on template
+							workflow -> templates --> select template --> click new workflow from template --> give name and modify 
+							
+						manually
+							workflow --> new --> setup the option manually
+							
 Module 10:		Setup Document Approval and Manage Approval Workflows
+					how to setup approval users
+						hirarchey
+						limit amount
+						subsitute approver
+						e-mail
+						approval administor
+						
+					creating approval workflow
+					how to setup notifications
+					using workflow in sales and purchase proccess

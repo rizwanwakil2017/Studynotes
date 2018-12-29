@@ -1,0 +1,133 @@
+												Trade in Microsoft NAV 2018
+Sales Order Management
+	which RoleCenter to choose
+		Sales Order Management Profile is best
+	Setup Sale Order Management
+		Sale & Receiable Setup
+			CRONUS International Ltd./Departments/Sales & Marketing/Administration --> click sales & Receiable setup
+			do the appropriate setting
+		My Notification
+			create new sales order --> enter 20000 customer number --> will get notification of overdues --> and if we
+			enter item number 80001 --> will get notification no availability -->
+			go to roletailed setup --> click notification setup -->
+		Customer Shipping Option
+			on customer card --> ship tab --> have all information about shipment
+		Customer Ship-to addresses
+			ship-to-addresses option allow to mention different addresses for single customer
+	Manage Sales Transaction
+		sales process start with quote or blanket order --> converted to SO --> post shimment --> will decrease item inventory
+		-->post invoice --> update chart of account --> update customer laibility --> 
+		customer will pay amount --> decrease customer laibility and update G/L
+		
+	Item Reservation
+		We can setup Reservation option both on customer and item --> 
+		we can make Reservation on availabil inventory as well as on future inventory 
+		we can reserve item on sales lines
+		
+	Posting Orders
+		create SO --> click on post button in menu --> choose ship first then invoice or both at once
+	Drop Shippment
+		create SO for non stock item --> and we don't want to keep stock for that item --> display the purchasing code column and choose drop shimment -->
+		enter first the drop shimment then quantity --> now create link purchased order --> we can create PO manually --> 
+		 in PO Invoice tab enter sell-to-customer no. --> so on shipment tab cusotmer information will show -->
+		 now to link PO with SO --> click action menu --> click drop shimment --> get SO --> Select SO -->
+		 Both SO & PO are linked so if we post SO shipment, PO will happen also AND vasa versa
+		 both invoice with post separatly. --> we can not invoice PO first --> in drop ship we need to first invoice the SO --> then PO
+		 
+		 we can create PO automatically using requisition sheet --> click drop shimment --> click get SO --> select SO --> CREATE PO Option
+		 
+Sales Prices & Discounts
+	Manage Sale Prices
+		to setup special or other price for an item --> open item card --> click special price option in menu --> 
+		we can create cusotmer price group --> from cusotmer card --> click price group --> click on naviage button --> enter the condition for price
+		
+		if both condition are set at item level and customer level, so the lowest price will take automatically. factbox will also show the prices
+		availabil
+		
+	Maintaining Sale Prices
+		Item Price on Worksheet
+			go to item card --> item 70000 --> price is 30.70 --> to change the item unit price --> run adjust item costs/price report
+			--> 
+		Sales Price on Worksheet
+			open sales price worksheet --> enter the criteria and create item sales price
+			
+		Adjust Item/Cost Price
+		
+	Setup Sale Line Discounts
+		Three types of discount in NAV
+			Payment discount --> this is financial discount --> link to payment term
+			Line Discounts
+				to setup lines discount to item or group of items --> we can achive this from item card by click the discount price button or
+				assign the item group on invoice tab of item card
+				
+			Invoice Discounts
+				on cusotmer card we can specify invoice discount on invoice tab --> then click on invoice discount on ribbin -->
+				if invoice discount is not setup automatically from sales setup then click to calculate manually in each SO
+				
+	Setup Invoice Discounts
+				To exclude cusotmer , item from discount we can achive this by four ways
+					1.	item card by unchecking the allow discount
+					2.	customer card by unchecking the allow discount
+					3.	from sales price unchecking the allow discount
+					4.	from price group unchecking the allow discount
+Customer Service Features
+	Use of Item Substitution
+		Simililar item can be link to each other. 
+		item card 1900-s --> naviagate --> substitute --> enter the substitute item number
+		(1960-S) & (1964-S)--> we can enter multiple substitute --> Select interchangable
+		--> create the condition as well (Enter Only when Original item not availabil)
+		
+		create SO for cusotmer (10000) --> enter item No. 1960-S --> Check in factbox
+		--> substitute exit --> 
+		
+	Create Cross Reference
+		1900-S item card --> click cross reference --> select type (customer) --> type No (10000)
+		--> reference no. (PGC-001) --> Description (any description)
+		
+		click SO for cusotmer (10000) --> choose column (cross reference) --> enter customer
+		item no. in cross reference (PGC-001) --> out item no. 1900-s will come automatically in SO
+		
+	Setup & Create Non Stock item
+		Non stock item are not part of inventory --> system will create item automatically
+		from non stock item --> it used for drop shipment or Special item
+		
+		search non stock item --> create non stock item based on template
+		search for non stock item setup --> enter the criteria
+	Sell Non Stock Item
+		create so for cusotmer no. 10000 --> click line option on ribbin -->  click non stock item --> select the non stock item
+		--> system will create item based on template from non stock item automatically --> finish the SO normally.
+		
+Purchase Order Management
+	which RoleCenter to choose
+		Purchase Agent Profile is best
+	Setup Purchase Order Management
+		Purchase & Payable Setup
+			CRONUS International Ltd./Departments/Purchase/Administration --> click Purchase & Payable setup
+			do the appropriate setting same as same like sales & receivable setup
+		My Notification
+			create new sales order --> enter 20000 customer number --> will get notification of overdues --> and if we
+			enter item number 80001 --> will get notification no availability -->
+			go to roletailed setup --> click notification setup -->
+		Vendor Shipping Option
+			on Vendor card --> shipment tab --> have all information about shipment
+		Vendor Ship-from addresses
+			ship-from-addresses option allow to mention different addresses for single vendor
+	Manage Purchase Transaction
+		sales process start with quote or blanket order --> quote 1001 converted to PO --> post Receipt --> posted receipt update inventory -->
+		-->post invoice --> posted invoice update chart of account & item inventory --> update vendor laibility --> 
+		we will pay amount to vendor --> decrease vendor laibility and update G/L	
+
+	Purchase Price and Discounts
+		purchase price are setup one vendor at a time. condition on date , currency, UOM , Varient and minimum qty 
+		1908-S --> Navigate --> special prices --> enter vendor 10000 --> enter condition as per requirements 
+	
+
+		purchase line Discounts & Invoice Discounts
+			10000 vendor card --> naviagate --> line discount --> enter item no. 1908-S --> min 50 --> 20%
+			10000 vendor card --> naviagate --> invoice discount --> enter criteria --> 
+Requisition Management
+Item Charges
+Order Promising
+Return Management
+Assembly Management
+Analysis and Reporting
