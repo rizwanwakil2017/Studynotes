@@ -125,7 +125,52 @@ Purchase Order Management
 		purchase line Discounts & Invoice Discounts
 			10000 vendor card --> naviagate --> line discount --> enter item no. 1908-S --> min 50 --> 20%
 			10000 vendor card --> naviagate --> invoice discount --> enter criteria --> 
+
 Requisition Management
+	Setting up Requisition Management
+		we can do planning with worksheet and some additional functional like drop shipment and special order
+		to use Requisition worksheet, we need to setup Requisition template
+		search for requisition sheet templates --> 
+		there is two builtain template in NAV, Planning template is used for manufacturing and REQ is used for tading purchase
+		
+	Using Requisition worksheet
+		click requisition --> enter item --> (if we create worksheet manually then we can choose blank or new ) option in action message
+		--> new --> replinish (purchase) --> enter quantity (16) --> Enter Vendor no. ( system will get vendor no. automatically from item card
+		if one item belong to multiple vendor then we can use item vendor catalog to assign multiple vendor to single item )
+		--> enter two vendors with different lead time --> if vendor catalog is there then on vendor drop down all vendor will show --> 
+		click carry out messages --> 
+	
+		using requisition sheet automatically
+			open requisition worksheet --> click calculate automatically plan --> enter the criteria --> start date (01/25/18)
+			--> end date (28/02/18)--> click OK --> System will automatically load items in worksheet
+		
+		setting up planning parameters
+			planning depond on four re-ordering policy
+				1.	Fixed re-order Quantity
+				2.	Maximum Quantity
+				3.	Order
+				4.	Lot for Lot
+			
+			1 & 2 is used for item that we want to keep in stock --> 3 & 4 are used for items that we don't want to keep in stock
+			
+			go to item card --> item 80005 --> click planning tab --> click re-ordering policy --> 
+			if we want for different location then we need to setup stock keeping units
+			select Fixed Quantity --> enter re-order point (50) --> re-order quantity (100) --> Dampener Quantity (5) --> 
+			safety Lead time (2D) --> safety Stock Quantity (30) --> overflow quantity(5)--> time buckut --> (1W)
+			
+			now inventory of 80005 is 60 --> if we create SO for 12 pcs against this item and run the requisition sheet , system will suggest 
+			PO of 100 PCS
+			
+			Maximum Quantity Policy is same like Fixed re-order policy only PO will create to match the maximux inventory specified on RIC
+			If we change police for item 80005 to Maximum Quantity and maximux inventory to 100, then requisition will suggest 52
+			
+			Order policy is used if we don't want item to keep inventory --> 
+	
+	Additional Worksheet Features
+	The Planning Parameters on Item Card
+	
+
+
 Item Charges
 Order Promising
 Return Management
