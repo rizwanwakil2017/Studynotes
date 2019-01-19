@@ -1,10 +1,10 @@
 What is Shell
 	The shell is a program that takes keyboard commands and passes them to the operating system to carry out. 
 	Almost all Linux distributions supply a shell program from the GNU Project called bash. 
-	The name “bash” is an acronym for “Bourne Again SHell”
+	The name “bash” is an acronym for “Bourne Again Shell”
 	
 Teminal
-	Terminal is used to access the SHell to enter the commands
+	Terminal is used to access the Shell to enter the commands
 
 Terminal Lunch
 	When we first log in to our system our current working directory is set to our home directory.
@@ -15,20 +15,35 @@ Terminal Lunch
 	
 	after the $ sign we will enter linux commands.
 	
+
 Commands History
 	we can recall entered commands by pressing up & down arrows keys from keyboard
 
 Simple Commands
+	who i am					find about login user information
 	date						this will show the date
 	cal							this will show current month calendar
 	df	-h						this will show disk information
 	free						this will show RAM information
-	Navigation commands			
+	hostname					show system name
+	tar -cf backfilename.tar /target_folder		this command create zip folder of target folder
+	uname						Operating System Name
+	uname -a					Operating System name and other details
+	id							show information about login user
+	who -uH						show information about current session
+
+Locating Commands
+		
+Navigation / File System commands			
 	pwd							print working directory (current location)
 	cd							change directory. only cd command change to home directory.
 	cd .. or cd - 				both command have same result, takes to one level up
 	cd ~						change to home directory
 	ls							list directory contents
+	chmod						change permision on file or directory
+	mkdir						create directory or Folder
+	
+	
 	file						determine file type. for example command file file_name will show type of file mean text file, picture etc
 	less						view file contents. read text file. use /word to search , n from keyboard for find next , q to quit. page 40 to less information
 	zless						view compressed file content. zip files
@@ -52,11 +67,16 @@ Simple Commands
 	info coreutils				show full list of command & help
 	whatis						command brief description
 	alias name='string'			create an alies for command. string consist on multiple command like cd /usr/; cd ~; ls
-	unalias name				delete the alies
+	unalias alias_name			delete the alies
+	
 	help command_name			show help regarding command_name
 	command_name --help			show help regarding command_name
+	info command_name			show help regarding command_name
+	man command_name			show help regarding command_name
+	echo $PATH					show the directries in PATH Variable
 	
 	I/O command
+	
 	cat							read file and display output to screen & concatenate files
 	sort						sort line of text
 	uniq						report or omit repeated lines
@@ -83,7 +103,8 @@ Simple Commands
 	echo *						show pwd file & directories
 	
 	clear						clear screen
-	history						show command history list
+	history 10					show command history list, will show 10 command history
+	!command_number				to excuate command on that number
 	
 	
 	

@@ -1,0 +1,128 @@
+Finance Essential in NAV 2017
+	Financial Management setup in NAV 2017
+	Use of COA, general Journal & VAT
+	Process Purchase & Sale Invoices
+	Cash Management
+	Manage Receivables
+	Info about Prepayments
+	Close of Fiscal Year
+	
+Module 1:	Financial Management Setup
+			GL Setup
+				use bookkeeper role
+				go to Ltd./Departments/Financial Management/Administration --> click general ledger setup --> check all the options -->
+			Accounting Periods
+				open administration--> accounting period --> click edit --> create new fiscal year --> this the easity way to create accounting period
+				
+			
+Module 2:	Chart of Account
+			G/L Account Card
+				we must specify account is belong to income statement or Balance sheet account because
+				fiscal year will close all income statement account
+			Chart of Accounts
+				we can use list of COA to assign dimension to multiple accounts and also indent account
+				we can run multiple usefull reports
+Module 3:	General Journal
+			Creating Journal Entries
+				Journal Template --> Journal Batch --> Journal Lines
+				Open General Journal --> open default Journal --> select default batach -->
+				select posting date (12/31/16)--> document type () --> Document No. () -->
+				account type (G/L) --> Account No (8130) --> amount (600)
+				on second line account type (fixed asset) --> account no. (fa000070) --> 
+				amount (-600) --> 
+				because this is correction entry make sure document type, and other field should be
+				blank.
+				we can link the supporting document to journel entry 
+				click action menu --> click supporting document --> select the file and click ok
+				post the Journal
+				
+			Processing Journal Entries
+				Open General Journal --> open default Journal --> select default batach -->
+				select posting date (12/31/16)--> document type (blank ) --> Document No. (G00001) -->
+				account type (G/L) --> Account No (9260) --> amount (1.6)
+				on second line account type (customer) --> account no. (01905902) --> 
+				amount (-1.60) --> 
+			
+				click preview posting button at ribbon --> will show the resulting entries
+				we can setup workflow for Journal as well 
+				
+				click action menu --> send approval request --> select Journal lines
+				
+				for check go to Register entries --> go to last entries --> navigate
+			
+			Create and use Standard Journal
+				save Journal entries 
+				Open General Journal --> open Cash Journal --> select Cash batach -->
+				select posting date (1/26/17)--> document type (blank ) --> Document No. (G00001) -->
+				account type (G/L) --> Account No (8210) --> amount (120)
+				on second line account type (G/L) --> account no. (9210) --> 
+				amount (-120) --> 
+				
+				If we are doing this work again and again then we will save the General Journal
+				Click on save as Standard Journal on Ribbon --> give name
+				
+				to recall the save Standard journel --> click get Standard Journal on ribbon
+				--> change them amount and post again
+				
+			Recurring Journals
+				if we know the recurring of activity in advance then we use recurring journel
+				methode
+						fixed 		lines are not delete after posting and amount remain same
+						variable	lines are not delete after positng but amount clear
+						balance		balance amount are distributed in line to make it zero, used with allocation
+						
+						reverse Fixed	same like fixed but posted at next day
+						reverse variable same like variable but posted at next day
+						reverse balance same like balance but posted at next day
+				
+				Open recurring general Journal --> 
+				recurring methode (F Fixed ) --> recurring frequance (1M+CM) --> 
+				Posting date (12/31/16) --> Document no. (RJ001) --> account type (G/L)
+				--> Account No (8430) --> amount (600)
+				on second line account no. (2910) --> amount (-600)
+				
+				post the journel --> once we post journel --> posting date will change automatically
+				
+				recurring methode (Variable) --> recurring frequance (1M+CM) --> 
+				Posting date (12/31/16) --> Document no. (RJ001) --> account type (G/L)
+				--> Account No (1240) --> amount (-14850) --> click allocation amount -->
+				enter Account no. (8820) --> department (ADM) --> 20%
+				enter Account no. (8820) --> department (Prod) --> 50%
+				enter Account no. (8820) --> department (Sale) --> 30%
+				click OK and post
+				
+				recurring methode (Reversals Variable) --> recurring frequance (1M+CM) --> 
+				Posting date (12/31/16) --> Document no. (RJ001) --> account type (G/L)
+				--> Account No (8120) --> amount (300) --> click allocation amount -->
+				enter Account no. (2232) -->  100%
+				click OK and post
+				
+			Deferrals
+				an invoice for next 12 months insurance --> we will use deferral system
+				create deferral template --> after creating template , we can assign to
+				G/L account or General Journal 
+				open G/L Account --> choose default deferral template
+				open general journel --> enter g/l account no. 8140 --> amount (2360) --> 
+				balance account (2910) --> deferral code (EXP-M) --> Click on action
+				--> deferral schedule --> 
+				
+				calc. Methode are
+					stright line, equal per month, equal per day and custome are all related to 
+					amount destribution 
+					
+			Reversals and Corrections
+				Open G/L Register --> select the register which you want to reverse --> click reverse
+				register on ribbon --> click on reverse button --> we can only reverse journel register enteries
+				
+				2nd methode is correction in general journel it self --> enter the enteries same like before
+				but there is colunm called correction --> put tick mark in it. --> if correction field not not
+				availble then display from development environment
+				
+Module 4:	Cash Management (Receivables & Payables )
+Module 5:	Cash Management (Bank Reconcilations )
+Module 6:	Receivables & Payables Management(Customer & Vendor Invoicing )
+Module 7:	Receivables & Payables Management (Payment Discount and Payment Tolerance)
+Module 8:	Receivables Management (Remainders and Finance Charges )
+Module 9:	VAT
+Module 10:	Prepayments
+Module 11:	Year End Closing Process
