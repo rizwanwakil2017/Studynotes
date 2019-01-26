@@ -119,6 +119,70 @@ Module 3:	General Journal
 				availble then display from development environment
 				
 Module 4:	Cash Management (Receivables & Payables )
+				Bank account overview
+					open bank card in NAV --> Go through bank card options
+				Customer and Vendors in Cash Management
+					on custome card (10000)--> payment fast tab --> select bank from ribbon
+					on vendor card (10000) --> payment fast tab --> select bank from ribbon
+				Processing Incoming and Outgoing Payments in NAV
+					pay vendor electronically or receive payment from customer electronically
+				Cash Receipt Journal and Payment Journal Overview
+					Reciving payment form customer
+					open cash receipt journel --> positng (1/26/17) --> doc type (payment)
+					--> account type (custome ) --> no. (10000) --> click apply entries on ribbon
+					--> select the invoice --> click set apply to id --> change amount to apply (paid by customer)
+					click ok --> post the journel
+					Paying to Vendor
+					open payment journel --> positng (1/26/17) --> doc type (payment)
+					--> account type (vendor ) --> no. (10000) --> click apply entries on ribbon
+					--> select the invoice --> click set apply to id --> change amount to apply (paid by customer)
+					click ok --> post the journel
+					
+				Applying Payments
+					in this case we can post the payment and then apply later against invoice
+					open cash receipt journel --> bank --> customer --> 30000 --> enter amount (-76,167.75) --> post
+					check cusotmer LE --> now select the entry on which you want to apply --> click apply entries from 
+					ribbon --> select the line --> click apply to id --> post application -->
+					
+					now if we apply entries bymistic to wrong document --> select line --> click unapply from ribbon
+					
+				Reversal of Posted Journals
+					if we post cash receipt journel wrong --> there are some condition for reversal for cash receipt journel
+						1.	enteries must be from CRJ
+						2.	CLE must not be applied
+						3.	BLE not closed
+						4.	Total G/L entries must be equal zero
+					open customer ledger enteries --> select the line --> click reverse transaction from ribbon --> click reverse
+					
+				Payment Registration
+					setup
+						search for payment registeration setup --> setup is very simple --> 
+					payment registeration page is overview of all outstanding 
+						open payment registeration page --> select the line --> click payment made --> enter amount --> click post on ribbon
+						we can post multiple invoice as lump payment --> one entry will pass for multiple invoices
+						we can search the customer
+						
+				Direct Debit Collection - Part 1
+						on bank card --> on transfer tab --> make sure sepa setup is there
+						on cusotmer card --> on payment tab --> partner type (company ) --> payment methode (direct debit ) --> setup direct mandate
+						--> enter info --> bank number --> valid date --> 
+						
+						now post invoice against this cusotmer --> then click direct debit collection --> click new --> enter crateria --> ok
+						--> if there is any error field will display in red --> correct the errors --> delete the line and create again
+						from entries click export direct debit file --> send this file to bank and bank will process the payment
+						make sure on bank card --> credit number is fille with any value --> click on payment receipt --> post
+				Direct Debit Collection - Part 2
+				Suggest Vendor Payments - Part 1
+					open payment journel --> click suggest vendor payment --> enter cretiria --> that's it
+					
+				Suggest Vendor Payments - Part 2
+				Check Management
+				Demo: Financialily voiding a Check
+				Demo: Void a Check
+				Payment Reconcilations - Part 1
+				Payment Reconcilations - Part 2
+				Bank Data Conversion Service
+				
 Module 5:	Cash Management (Bank Reconcilations )
 Module 6:	Receivables & Payables Management(Customer & Vendor Invoicing )
 Module 7:	Receivables & Payables Management (Payment Discount and Payment Tolerance)
