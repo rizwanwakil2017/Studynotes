@@ -48,7 +48,10 @@ Vagrant.configure("2") do |config|
   # argument is a set of non-required options.
   # config.vm.synced_folder "../data", "/vagrant_data"
   config.vm.synced_folder "../B05032-Magento-Box", "/vagrant-B05032-Magento-Box" #, owner:"vagrant", group: "wwwdata", mount_options:["dmode=775, fmode=664"]
-  # config.vm.synced_folder "../B05032-Magento-Box", "/var/www/html", type: "nfs"
+  # config.vm.provision "shell", inline: "sudo mkdir -p /var/www/html/magento2"
+  # config.vm.synced_folder "../B05032-Magento-Box", "/var/www/html/magento-dev" # , owner: "magento_user", group: "www-data", type: "rsync"
+  # config.vm.share_folder "mag-dev", "/var/www/html/magento2", "../B05032-Magento-Box", :owner => "magento_user", :group => "www-data"
+  #config.vm.provision "shell", inline: "sudo chown -R root:www-data /var/www/html/magento2"  
 
   # Provider-specific configuration so you can fine-tune various
   # backing providers for Vagrant. These expose provider-specific options.
@@ -88,9 +91,21 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", inline: "sudo a2enmod rewrite"
   config.vm.provision "shell", inline: "sudo service apache2 restart"
 
-   # MySQL Provisioning start here
-  # sudo apt install -y mysql-server mysql-client
-  # sudo service mysql start
+  # MySQL Provisioning start here
+  config.vm.provision "shell", inline: "sudo debconf-set-selections <<<'mysql-server mysql-server/root_password password m@g1t786'"
+  config.vm.provision "shell", inline: "sudo debconf-set-selections <<<'mysql-server mysql-server/root_password_again password m@g1t786'"
+  config.vm.provision "shell", inline: "sudo apt-get install -y mysql-server mysql-client"
+  config.vm.provision "shell", inline: "sudo service mysql start"
+  config.vm.provision "shell", inline: "sudo update-rc.d mysql defaults"
+
+  # Install GIT , CURL and COMPOSER 
+  config.vm.provision "shell", inline: "sudo apt-get -y install curl git"
+  config.vm.provision "shell", inline: "sudo curl -s https://getcomposer.org/installer | php"
+  config.vm.provision "shell", inline: "sudo mv composer.phar /usr/local/bin/composer"
+
+  # Clear the Magento Installation directory /var/www/html/magento2
+  
+
 
 end
 
