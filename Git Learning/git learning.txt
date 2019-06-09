@@ -1,0 +1,98 @@
+Learning GIT
+create repositor locally
+	git init
+setting global information
+	git config --global user.name "Rizwan Khan"
+	git config --global user.email "rizwanwakil2019@gmail.com"
+Listing Global information
+	git config --list
+Starting Project in two methods
+
+	create repository locally & connect to remote github repository
+		git init 		--> this command will create git repository locally
+		login to github and create repository then issue below command in local repositor
+		git remote add origin https://github.com/rizwanwakil2019/repository_name
+		
+		
+	create repository on github & connect to local repository
+		login to github and create repository
+		now from local system, clone the remote repository
+			git clone https://github.com/rizwanwakil2019/repository_name
+			
+Adding changes to staging, then local repository then shifting to remote repository --> this is also called workflow
+	git add .
+	git commit -m "changes"
+	git push
+
+Finding changes or compare in file
+	git diff
+
+Reverting Change
+	how to un do un-commented , commented changes
+	1.	undo un-commented changes
+		git checkout -- . or filename
+		
+	2.	undo commented changes
+		git log		to see commit history
+		: 			exit from log
+		git revert comment_id 		take the comment id from log and enter
+	
+		
+	3.	resetting changes
+		git reset --hard comment id		take the comment id from log and enter 		this is risky methods, be care full
+		
+		
+Braches
+	To get all branches
+		git branch
+		
+	To create branch
+		git branch name_of_branch
+	
+	To use branch
+		git checkout -b name_of_branch
+	
+	To merge branch to master branch
+		git merge name_of_branch
+		
+	to delete branch
+		git checkout -d name_of_branch				use this command if branch is merge
+		git checkout -D name_of_branch				use this command to delete branch if it's not merge
+	
+	
+	
+	Work flow
+		git branch								-- to list all branches
+		git branch -b new_brance				-- to create branch with name new_brance
+		make some changes in files
+		git add
+		git commit
+		git push origin new_brance				-- push changes to new_brance in github
+		git push origin :delete_branch_name		-- to delete the branch
+		
+Ignore File
+	create .gitignore file and file which we don't want to push to server
+	
+Stage
+	this is equal to draf feature in git.
+	for example your are working make some change, mean time your boss make some change as will, so to save your changes in stage,
+	apply boss changes then apply your change from stash.
+	
+	git stash save "stash_name"					save the current changes in to stash with name stash_name
+	git stash list								list all stashes
+	git stash apply unique_id
+	git stash drop unique_id
+	git stash pop
+	git stash clear
+	
+	
+	Work flow
+		1.	make some change in files
+		2.	boss come to you and ask for urgent work
+		3.	to save your changes in draft   
+				git stash save "my_work"
+		4.	do the boss work, save , commit and push to github
+		5.	issue git stash list command to get the stash id 
+		6.	apply changes back using git stash apply unique_id
+		7.	add to stage area, commit and push to github
+		
