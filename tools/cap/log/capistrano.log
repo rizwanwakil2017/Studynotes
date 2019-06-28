@@ -1,0 +1,1482 @@
+# Logfile created on 2019-06-27 17:03:58 +0400 by logger.rb/61378
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 17:03:58 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f159f91c] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [f159f91c] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [b466aa5e] Finished in 3.305 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [6ebef84e] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [6ebef84e] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [499c702c] Finished in 0.612 seconds with exit status 1 (failed).
+  INFO [d31459dd] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [d31459dd] Command: /usr/bin/env mkdir -p /tmp
+  INFO [22f351ae] Finished in 0.611 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [317a4044] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [317a4044] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [f01b981a] Finished in 0.614 seconds with exit status 0 (successful).
+  INFO [61567ee6] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [61567ee6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [3fdbed44] 	Warning: Permanently added 'github.com,192.30.253.112' (RSA) to the list of known hosts.
+ DEBUG [3fdbed44] 	Permission denied (publickey).
+ DEBUG [3fdbed44] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 17:06:04 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [8a1ad111] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [8a1ad111] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [1bd022ab] Finished in 2.838 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [b6d8d0c1] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [b6d8d0c1] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [27987175] Finished in 0.587 seconds with exit status 1 (failed).
+  INFO [2c9319c8] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [2c9319c8] Command: /usr/bin/env mkdir -p /tmp
+  INFO [5930941b] Finished in 0.529 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [5cd9c6fe] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [5cd9c6fe] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [1b2be518] Finished in 0.612 seconds with exit status 0 (successful).
+  INFO [d771e7b1] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [d771e7b1] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [28c6d9f2] 	Warning: Permanently added the RSA host key for IP address '192.30.253.113' to the list of known hosts.
+ DEBUG [28c6d9f2] 	Permission denied (publickey).
+ DEBUG [28c6d9f2] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 17:12:40 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [7a79415c] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [7a79415c] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [34c673b7] Finished in 3.268 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [dc588e85] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [dc588e85] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [c89cdb57] Finished in 0.609 seconds with exit status 1 (failed).
+  INFO [0617794f] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [0617794f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [88f9f768] Finished in 0.613 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [4ff507de] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [4ff507de] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [5d059bcb] Finished in 0.614 seconds with exit status 0 (successful).
+  INFO [bde38ac6] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [bde38ac6] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [8db67da7] 	Permission denied (publickey).
+ DEBUG [8db67da7] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 17:14:02 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [d94dd232] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [d94dd232] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [ce7f12c7] Finished in 3.373 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [f29ba06d] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [f29ba06d] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [6e277d2b] Finished in 0.509 seconds with exit status 1 (failed).
+  INFO [f09dcbc3] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [f09dcbc3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [43615cdd] Finished in 0.613 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [3a328333] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [3a328333] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [f55994d9] Finished in 0.614 seconds with exit status 0 (successful).
+  INFO [4c7b0690] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [4c7b0690] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [33b0a91b] 	Permission denied (publickey).
+ DEBUG [33b0a91b] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 17:17:49 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [1aea2d86] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [1aea2d86] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [1f33a5b2] Finished in 3.268 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [436581e0] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [436581e0] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [6cc97e1b] Finished in 0.494 seconds with exit status 1 (failed).
+  INFO [30ec2624] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [30ec2624] Command: /usr/bin/env mkdir -p /tmp
+  INFO [058fdd61] Finished in 0.523 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [7cabd8a4] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [7cabd8a4] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [484e24c3] Finished in 0.525 seconds with exit status 0 (successful).
+  INFO [5e386173] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [5e386173] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [e8537b87] 	Permission denied (publickey).
+ DEBUG [e8537b87] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 17:22:24 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [a4a03609] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [a4a03609] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [34b91058] Finished in 2.882 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [6fcbbdeb] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [6fcbbdeb] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [23ad77bd] Finished in 0.558 seconds with exit status 1 (failed).
+  INFO [45c0d3d7] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [45c0d3d7] Command: /usr/bin/env mkdir -p /tmp
+  INFO [cc790a9a] Finished in 0.475 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [42678aa3] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [42678aa3] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [9702ce71] Finished in 0.612 seconds with exit status 0 (successful).
+  INFO [9b918e4f] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [9b918e4f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [b3aa2b3c] 	Permission denied (publickey).
+ DEBUG [b3aa2b3c] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 17:25:55 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [2cdad53e] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [2cdad53e] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [94807a57] Finished in 3.106 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [880f3b61] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [880f3b61] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [0a5f0969] Finished in 0.590 seconds with exit status 1 (failed).
+  INFO [d97e467f] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [d97e467f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [3f3a5dc7] Finished in 0.612 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [6c7592e6] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [6c7592e6] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [422c578b] Finished in 0.601 seconds with exit status 0 (successful).
+  INFO [da2d22bb] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [da2d22bb] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [cc692564] 	Permission denied (publickey).
+ DEBUG [cc692564] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 17:29:20 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [361e94ed] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [361e94ed] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [9de96790] Finished in 3.264 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [8f954345] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [8f954345] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [fa3a66ee] Finished in 0.610 seconds with exit status 1 (failed).
+  INFO [79b7ee2a] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [79b7ee2a] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c7a49ad8] Finished in 0.611 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [44e38dee] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [44e38dee] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [e859d801] Finished in 0.612 seconds with exit status 0 (successful).
+  INFO [4ec8e883] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [4ec8e883] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [c26e43fe] 	Permission denied (publickey).
+ DEBUG [c26e43fe] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 17:32:40 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [37db96a0] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [37db96a0] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [d4911516] Finished in 3.355 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [304f67d9] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [304f67d9] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [1157e594] Finished in 0.609 seconds with exit status 1 (failed).
+  INFO [d6fe3ae3] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [d6fe3ae3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [72f293c4] Finished in 0.612 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [00c505bb] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [00c505bb] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [f4f2a37a] Finished in 0.600 seconds with exit status 0 (successful).
+  INFO [30995922] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [30995922] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [8077727f] 	Permission denied (publickey).
+ DEBUG [8077727f] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 17:37:07 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [0b05aaf0] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [0b05aaf0] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [1bb83b9f] Finished in 3.356 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [4f5c5557] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [4f5c5557] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [db26a675] Finished in 0.612 seconds with exit status 1 (failed).
+  INFO [9755a155] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [9755a155] Command: /usr/bin/env mkdir -p /tmp
+  INFO [096cc007] Finished in 0.436 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [882a3328] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [882a3328] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [21044ef9] Finished in 0.611 seconds with exit status 0 (successful).
+  INFO [8b134c35] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [8b134c35] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [6116a6b5] 	Permission denied (publickey).
+ DEBUG [6116a6b5] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 17:41:16 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [140db97f] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [140db97f] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [c5c4474a] Finished in 3.248 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [c32589ee] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [c32589ee] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [16d95e9f] Finished in 0.610 seconds with exit status 1 (failed).
+  INFO [368abd68] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [368abd68] Command: /usr/bin/env mkdir -p /tmp
+  INFO [18ead80c] Finished in 0.444 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [51ab26d6] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [51ab26d6] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [f595c61c] Finished in 0.613 seconds with exit status 0 (successful).
+  INFO [16367fef] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [16367fef] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [58e8e4dd] 	Permission denied (publickey).
+ DEBUG [58e8e4dd] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 17:44:01 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [838c4c08] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [838c4c08] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [409c0afa] Finished in 3.274 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [911445fa] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [911445fa] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [0bab296c] Finished in 0.541 seconds with exit status 1 (failed).
+  INFO [0b47fa52] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [0b47fa52] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b3c411d8] Finished in 0.612 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [8e462f04] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [8e462f04] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [e947d455] Finished in 0.614 seconds with exit status 0 (successful).
+  INFO [473d6378] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [473d6378] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [ed6aa298] 	Permission denied (publickey).
+ DEBUG [ed6aa298] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 17:47:52 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [fac19fa4] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [fac19fa4] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [8eb86c6b] Finished in 3.398 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [61cc929c] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [61cc929c] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [3c14cd01] Finished in 0.608 seconds with exit status 1 (failed).
+  INFO [5c7fc309] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [5c7fc309] Command: /usr/bin/env mkdir -p /tmp
+  INFO [fe988e3f] Finished in 0.612 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [63a89667] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [63a89667] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [579b0785] Finished in 0.614 seconds with exit status 0 (successful).
+  INFO [8ba1e62f] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [8ba1e62f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [35ff3d06] 	Permission denied (publickey).
+ DEBUG [35ff3d06] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 17:54:24 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f9ea22f3] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [f9ea22f3] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [aaacf6be] Finished in 3.283 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [4256f4c7] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [4256f4c7] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [ed17f7ee] Finished in 0.610 seconds with exit status 1 (failed).
+  INFO [09384743] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [09384743] Command: /usr/bin/env mkdir -p /tmp
+  INFO [67467976] Finished in 0.612 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [ce6988f6] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [ce6988f6] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [43b7b8df] Finished in 0.612 seconds with exit status 0 (successful).
+  INFO [1db5554f] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [1db5554f] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [a27ccb71] 	Permission denied (publickey).
+ DEBUG [a27ccb71] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 21:19:25 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9762604b] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [9762604b] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [a9e25146] Finished in 3.307 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [99db7003] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [99db7003] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [7e432885] Finished in 0.610 seconds with exit status 1 (failed).
+  INFO [9ae66d3c] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [9ae66d3c] Command: /usr/bin/env mkdir -p /tmp
+  INFO [2c3d8c8f] Finished in 0.612 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [45f273a6] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [45f273a6] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [ca3d73ed] Finished in 0.611 seconds with exit status 0 (successful).
+  INFO [59b75856] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [59b75856] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [7d4d4dbd] 	Permission denied (publickey).
+ DEBUG [7d4d4dbd] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 21:23:04 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [e23937da] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [e23937da] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [0c828665] Finished in 3.236 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [35263836] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [35263836] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [642e124a] Finished in 0.566 seconds with exit status 1 (failed).
+  INFO [13331cff] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [13331cff] Command: /usr/bin/env mkdir -p /tmp
+  INFO [7942474b] Finished in 0.614 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [4cd69dbb] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [4cd69dbb] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [430563c0] Finished in 0.614 seconds with exit status 0 (successful).
+  INFO [4170f705] Running /usr/bin/env git ls-remote git clone https://github.com/rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [4170f705] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git clone https://github.com/rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [4b0c5ec2] 	fatal: 'git' does not appear to be a git repository
+ DEBUG [4b0c5ec2] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 21:24:56 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [bddd06f4] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [bddd06f4] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [663a6682] Finished in 3.098 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [f5078f1c] Running [ -f /var/www/html/live/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [f5078f1c] Command: [ -f /var/www/html/live/current/REVISION ]
+ DEBUG [bc12abea] Finished in 0.598 seconds with exit status 1 (failed).
+  INFO [a7064ba3] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [a7064ba3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [3b7b59a7] Finished in 0.610 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [6e2aa9c3] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [6e2aa9c3] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [64c7fb9b] Finished in 0.612 seconds with exit status 0 (successful).
+  INFO [81f72b14] Running /usr/bin/env git ls-remote git clone https://github.com/rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [81f72b14] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git clone https://github.com/rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [745a2ad1] 	fatal: 'git' does not appear to be a git repository
+ DEBUG [745a2ad1] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 21:26:41 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [eee15dac] Running [ -f /var/www/html/live/current/REVISION ] as rizwan@34.66.18.125
+ DEBUG [eee15dac] Command: [ -f /var/www/html/live/current/REVISION ]
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 21:28:06 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [14f1f2e7] Running [ -f /var/www/html/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [14f1f2e7] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [dcfb1dd5] Finished in 3.137 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [cdb8f20c] Running [ -f /var/www/html/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [cdb8f20c] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [6acfa9fb] Finished in 0.611 seconds with exit status 1 (failed).
+  INFO [60321399] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [60321399] Command: /usr/bin/env mkdir -p /tmp
+  INFO [1ddb59cc] Finished in 0.608 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [d71551f8] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [d71551f8] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [34219f6c] Finished in 0.593 seconds with exit status 0 (successful).
+  INFO [f49ed6da] Running /usr/bin/env git ls-remote git clone https://github.com/rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [f49ed6da] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git clone https://github.com/rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [43d795e9] 	fatal: 'git' does not appear to be a git repository
+ DEBUG [43d795e9] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 21:35:30 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [230d0104] Running [ -f /var/www/html/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [230d0104] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [3f739030] Finished in 3.610 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [41dc4b1e] Running [ -f /var/www/html/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [41dc4b1e] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [7235ab2f] Finished in 0.577 seconds with exit status 1 (failed).
+  INFO [f798b256] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [f798b256] Command: /usr/bin/env mkdir -p /tmp
+  INFO [4fc99d94] Finished in 0.694 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [7a5a685c] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [7a5a685c] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [03461253] Finished in 0.531 seconds with exit status 0 (successful).
+  INFO [af20c070] Running /usr/bin/env git ls-remote git clone https://github.com/rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [af20c070] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git clone https://github.com/rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [2e341ab2] 	fatal: 'git' does not appear to be a git repository
+ DEBUG [2e341ab2] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-27 21:36:33 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [b84fc5df] Running [ -f /var/www/html/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [b84fc5df] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [afbf0e95] Finished in 3.294 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [5a95c90a] Running [ -f /var/www/html/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [5a95c90a] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [72b9368a] Finished in 0.609 seconds with exit status 1 (failed).
+  INFO [b105007a] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [b105007a] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e21c094f] Finished in 0.612 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [471c1c6b] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [471c1c6b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [f45d8e18] Finished in 0.613 seconds with exit status 0 (successful).
+  INFO [ef3bd28d] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [ef3bd28d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [d4a230d2] 	Permission denied (publickey).
+ DEBUG [d4a230d2] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-28 11:15:25 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [f6c2ea76] Running [ -f /var/www/html/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [f6c2ea76] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [c3640d44] Finished in 3.257 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [53499ebd] Running [ -f /var/www/html/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [53499ebd] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [a3ba9522] Finished in 0.611 seconds with exit status 1 (failed).
+  INFO [28ed7ab2] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [28ed7ab2] Command: /usr/bin/env mkdir -p /tmp
+  INFO [38417a5b] Finished in 0.611 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [f0d4eff6] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [f0d4eff6] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [6364922a] Finished in 0.491 seconds with exit status 0 (successful).
+  INFO [88770c3c] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [88770c3c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [79075349] 	Permission denied (publickey).
+ DEBUG [79075349] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-28 11:18:10 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [9d171d3e] Running [ -f /var/www/html/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [9d171d3e] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [123296c1] Finished in 3.025 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [a9238764] Running [ -f /var/www/html/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [a9238764] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [8c8d3c9a] Finished in 0.607 seconds with exit status 1 (failed).
+  INFO [0f2b0194] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [0f2b0194] Command: /usr/bin/env mkdir -p /tmp
+  INFO [d03b4d02] Finished in 0.613 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [ce3b8f57] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [ce3b8f57] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [4df117bc] Finished in 0.553 seconds with exit status 0 (successful).
+  INFO [e934296a] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [e934296a] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [b0009e81] 	d1718296617e8cdff4d8955421ae87c620f99491	HEAD
+  INFO [b0009e81] Finished in 1.215 seconds with exit status 0 (successful).
+  INFO [0687c873] Running /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases as vagrant@34.66.18.125
+ DEBUG [0687c873] Command: /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases
+  INFO [bd6a8e5b] Finished in 0.612 seconds with exit status 0 (successful).
+  INFO [3634a1df] Running /usr/bin/env mkdir -p /var/www/html/shared/pub/media /var/www/html/shared/pub/sitemaps /var/www/html/shared/var/backups /var/www/html/shared/var/composer_home /var/www/html/shared/var/importexport /var/www/html/shared/var/import_history /var/www/html/shared/var/log /var/www/html/shared/var/session /var/www/html/shared/var/tmp as vagrant@34.66.18.125
+ DEBUG [3634a1df] Command: /usr/bin/env mkdir -p /var/www/html/shared/pub/media /var/www/html/shared/pub/sitemaps /var/www/html/shared/var/backups /var/www/html/shared/var/composer_home /var/www/html/shared/var/importexport /var/www/html/shared/var/import_history /var/www/html/shared/var/log /var/www/html/shared/var/session /var/www/html/shared/var/tmp
+  INFO [9073d470] Finished in 0.609 seconds with exit status 0 (successful).
+  INFO [9b5870fa] Running /usr/bin/env mkdir -p /var/www/html/shared/app/etc /var/www/html/shared/var as vagrant@34.66.18.125
+ DEBUG [9b5870fa] Command: /usr/bin/env mkdir -p /var/www/html/shared/app/etc /var/www/html/shared/var
+  INFO [22133c79] Finished in 0.613 seconds with exit status 0 (successful).
+ DEBUG [594fc825] Running [ -f /var/www/html/shared/app/etc/env.php ] as vagrant@34.66.18.125
+ DEBUG [594fc825] Command: [ -f /var/www/html/shared/app/etc/env.php ]
+ DEBUG [a9f14731] Finished in 0.611 seconds with exit status 0 (successful).
+ DEBUG [4b679252] Running [ -f /var/www/html/shared/app/etc/config.local.php ] as vagrant@34.66.18.125
+ DEBUG [4b679252] Command: [ -f /var/www/html/shared/app/etc/config.local.php ]
+ DEBUG [eddfca73] Finished in 0.511 seconds with exit status 1 (failed).
+  INFO [6983e2cf] Running /usr/bin/env touch /var/www/html/shared/app/etc/config.local.php as vagrant@34.66.18.125
+ DEBUG [6983e2cf] Command: /usr/bin/env touch /var/www/html/shared/app/etc/config.local.php
+  INFO [b2140be9] Finished in 0.610 seconds with exit status 0 (successful).
+ DEBUG [50150efa] Running [ -f /var/www/html/shared/var/.setup_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [50150efa] Command: [ -f /var/www/html/shared/var/.setup_cronjob_status ]
+ DEBUG [03158a74] Finished in 0.609 seconds with exit status 1 (failed).
+  INFO [867cd2f0] Running /usr/bin/env touch /var/www/html/shared/var/.setup_cronjob_status as vagrant@34.66.18.125
+ DEBUG [867cd2f0] Command: /usr/bin/env touch /var/www/html/shared/var/.setup_cronjob_status
+  INFO [705cd6dc] Finished in 0.612 seconds with exit status 0 (successful).
+ DEBUG [63f87e04] Running [ -f /var/www/html/shared/var/.update_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [63f87e04] Command: [ -f /var/www/html/shared/var/.update_cronjob_status ]
+ DEBUG [941fa95a] Finished in 0.612 seconds with exit status 1 (failed).
+  INFO [a861fad4] Running /usr/bin/env touch /var/www/html/shared/var/.update_cronjob_status as vagrant@34.66.18.125
+ DEBUG [a861fad4] Command: /usr/bin/env touch /var/www/html/shared/var/.update_cronjob_status
+  INFO [4d68b45c] Finished in 0.613 seconds with exit status 0 (successful).
+ DEBUG [ac3ab232] Running [ -f /var/www/html/shared/app/etc/env.php ] as vagrant@34.66.18.125
+ DEBUG [ac3ab232] Command: [ -f /var/www/html/shared/app/etc/env.php ]
+ DEBUG [3d96de30] Finished in 0.609 seconds with exit status 0 (successful).
+ DEBUG [ec287a55] Running [ -f /var/www/html/shared/app/etc/config.local.php ] as vagrant@34.66.18.125
+ DEBUG [ec287a55] Command: [ -f /var/www/html/shared/app/etc/config.local.php ]
+ DEBUG [65b031d8] Finished in 0.612 seconds with exit status 0 (successful).
+ DEBUG [f0253a7f] Running [ -f /var/www/html/shared/var/.setup_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [f0253a7f] Command: [ -f /var/www/html/shared/var/.setup_cronjob_status ]
+ DEBUG [f62e5733] Finished in 0.543 seconds with exit status 0 (successful).
+ DEBUG [1566a585] Running [ -f /var/www/html/shared/var/.update_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [1566a585] Command: [ -f /var/www/html/shared/var/.update_cronjob_status ]
+ DEBUG [fc027ab3] Finished in 0.579 seconds with exit status 0 (successful).
+ DEBUG [c1e9e6c1] Running [ -f /var/www/html/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [c1e9e6c1] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [ebfb1566] Finished in 0.611 seconds with exit status 1 (failed).
+ DEBUG [dc87fd25] Running [ -f /var/www/html/repo/HEAD ] as vagrant@34.66.18.125
+ DEBUG [dc87fd25] Command: [ -f /var/www/html/repo/HEAD ]
+ DEBUG [cf215d12] Finished in 0.610 seconds with exit status 1 (failed).
+ DEBUG [59db4663] Running if test ! -d /var/www/html; then echo "Directory does not exist '/var/www/html'" 1>&2; false; fi as vagrant@34.66.18.125
+ DEBUG [59db4663] Command: if test ! -d /var/www/html; then echo "Directory does not exist '/var/www/html'" 1>&2; false; fi
+ DEBUG [00817d72] Finished in 0.614 seconds with exit status 0 (successful).
+  INFO [c9cee451] Running /usr/bin/env git clone --mirror git@github.com:rizwanwakil2018/magento-production.git /var/www/html/repo as vagrant@34.66.18.125
+ DEBUG [c9cee451] Command: cd /var/www/html && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git clone --mirror git@github.com:rizwanwakil2018/magento-production.git /var/www/html/repo )
+ DEBUG [af820d1f] 	Cloning into bare repository '/var/www/html/repo'...
+  INFO [af820d1f] Finished in 8.600 seconds with exit status 0 (successful).
+ DEBUG [b75e848f] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as vagrant@34.66.18.125
+ DEBUG [b75e848f] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [ef7ebc83] Finished in 0.614 seconds with exit status 0 (successful).
+  INFO [42c19b9f] Running /usr/bin/env git remote set-url origin git@github.com:rizwanwakil2018/magento-production.git as vagrant@34.66.18.125
+ DEBUG [42c19b9f] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git remote set-url origin git@github.com:rizwanwakil2018/magento-production.git )
+  INFO [b75c3580] Finished in 0.509 seconds with exit status 0 (successful).
+  INFO [1c9a7a1e] Running /usr/bin/env git remote update --prune as vagrant@34.66.18.125
+ DEBUG [1c9a7a1e] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [68f50376] 	Fetching origin
+  INFO [68f50376] Finished in 1.124 seconds with exit status 0 (successful).
+ DEBUG [27cfedc4] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as vagrant@34.66.18.125
+ DEBUG [27cfedc4] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [bb3c10f9] Finished in 0.545 seconds with exit status 0 (successful).
+  INFO [6e006b27] Running /usr/bin/env mkdir -p /var/www/html/releases/20190628071827 as vagrant@34.66.18.125
+ DEBUG [6e006b27] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env mkdir -p /var/www/html/releases/20190628071827 )
+  INFO [ad69a3cf] Finished in 0.574 seconds with exit status 0 (successful).
+  INFO [2feac109] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/releases/20190628071827 as vagrant@34.66.18.125
+ DEBUG [2feac109] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/releases/20190628071827 )
+  INFO [15999d59] Finished in 12.620 seconds with exit status 0 (successful).
+ DEBUG [bd17d96f] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as vagrant@34.66.18.125
+ DEBUG [bd17d96f] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [afe24564] Finished in 0.482 seconds with exit status 0 (successful).
+ DEBUG [253aabb2] Running /usr/bin/env git rev-list --max-count=1 master as vagrant@34.66.18.125
+ DEBUG [253aabb2] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [c9d52011] 	d1718296617e8cdff4d8955421ae87c620f99491
+ DEBUG [c9d52011] Finished in 1.154 seconds with exit status 0 (successful).
+ DEBUG [9afc521c] Running if test ! -d /var/www/html/releases/20190628071827; then echo "Directory does not exist '/var/www/html/releases/20190628071827'" 1>&2; false; fi as vagrant@34.66.18.125
+ DEBUG [9afc521c] Command: if test ! -d /var/www/html/releases/20190628071827; then echo "Directory does not exist '/var/www/html/releases/20190628071827'" 1>&2; false; fi
+ DEBUG [59a575e5] Finished in 1.197 seconds with exit status 0 (successful).
+  INFO [4f626130] Running /usr/bin/env echo "d1718296617e8cdff4d8955421ae87c620f99491" > REVISION as vagrant@34.66.18.125
+ DEBUG [4f626130] Command: cd /var/www/html/releases/20190628071827 && /usr/bin/env echo "d1718296617e8cdff4d8955421ae87c620f99491" > REVISION
+  INFO [a7ae61f6] Finished in 1.941 seconds with exit status 0 (successful).
+ DEBUG [54652c83] Running [ -f /var/www/html/releases/20190628071827/app/etc/config.local.php ] as vagrant@34.66.18.125
+ DEBUG [54652c83] Command: [ -f /var/www/html/releases/20190628071827/app/etc/config.local.php ]
+ DEBUG [376f3df6] Finished in 1.125 seconds with exit status 1 (failed).
+ DEBUG [6bab83c9] Running /usr/bin/env php -r '; $cfg = include "/var/www/html/releases/20190628071827/app/etc/config.php";; exit((int)(isset($cfg["scopes"]) && isset($cfg["themes"])));; ' as vagrant@34.66.18.125
+ DEBUG [6bab83c9] Command: /usr/bin/env php -r '; $cfg = include "/var/www/html/releases/20190628071827/app/etc/config.php";; exit((int)(isset($cfg["scopes"]) && isset($cfg["themes"])));; '
+ DEBUG [7d674be0] Finished in 2.379 seconds with exit status 0 (successful).
+  INFO [ee72dd17] Running /usr/bin/env mkdir -p /var/www/html/releases/20190628071827/app/etc /var/www/html/releases/20190628071827/var as vagrant@34.66.18.125
+ DEBUG [ee72dd17] Command: /usr/bin/env mkdir -p /var/www/html/releases/20190628071827/app/etc /var/www/html/releases/20190628071827/var
+  INFO [9b3aad9a] Finished in 0.484 seconds with exit status 0 (successful).
+ DEBUG [af46ce03] Running [ -L /var/www/html/releases/20190628071827/app/etc/env.php ] as vagrant@34.66.18.125
+ DEBUG [af46ce03] Command: [ -L /var/www/html/releases/20190628071827/app/etc/env.php ]
+ DEBUG [2c374c17] Finished in 1.618 seconds with exit status 1 (failed).
+ DEBUG [248d41b4] Running [ -f /var/www/html/releases/20190628071827/app/etc/env.php ] as vagrant@34.66.18.125
+ DEBUG [248d41b4] Command: [ -f /var/www/html/releases/20190628071827/app/etc/env.php ]
+ DEBUG [915e8420] Finished in 1.141 seconds with exit status 0 (successful).
+  INFO [4947da35] Running /usr/bin/env rm /var/www/html/releases/20190628071827/app/etc/env.php as vagrant@34.66.18.125
+ DEBUG [4947da35] Command: /usr/bin/env rm /var/www/html/releases/20190628071827/app/etc/env.php
+  INFO [d1b6a2ec] Finished in 1.228 seconds with exit status 0 (successful).
+  INFO [f9f25b96] Running /usr/bin/env ln -s /var/www/html/shared/app/etc/env.php /var/www/html/releases/20190628071827/app/etc/env.php as vagrant@34.66.18.125
+ DEBUG [f9f25b96] Command: /usr/bin/env ln -s /var/www/html/shared/app/etc/env.php /var/www/html/releases/20190628071827/app/etc/env.php
+  INFO [0ff1d536] Finished in 1.124 seconds with exit status 0 (successful).
+ DEBUG [83752525] Running [ -L /var/www/html/releases/20190628071827/app/etc/config.local.php ] as vagrant@34.66.18.125
+ DEBUG [83752525] Command: [ -L /var/www/html/releases/20190628071827/app/etc/config.local.php ]
+ DEBUG [2227ebe2] Finished in 1.204 seconds with exit status 1 (failed).
+ DEBUG [c5995b11] Running [ -f /var/www/html/releases/20190628071827/app/etc/config.local.php ] as vagrant@34.66.18.125
+ DEBUG [c5995b11] Command: [ -f /var/www/html/releases/20190628071827/app/etc/config.local.php ]
+ DEBUG [2705a5d9] Finished in 1.147 seconds with exit status 1 (failed).
+  INFO [4b460c89] Running /usr/bin/env ln -s /var/www/html/shared/app/etc/config.local.php /var/www/html/releases/20190628071827/app/etc/config.local.php as vagrant@34.66.18.125
+ DEBUG [4b460c89] Command: /usr/bin/env ln -s /var/www/html/shared/app/etc/config.local.php /var/www/html/releases/20190628071827/app/etc/config.local.php
+  INFO [17bd9d3a] Finished in 1.227 seconds with exit status 0 (successful).
+ DEBUG [b116bafb] Running [ -L /var/www/html/releases/20190628071827/var/.setup_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [b116bafb] Command: [ -L /var/www/html/releases/20190628071827/var/.setup_cronjob_status ]
+ DEBUG [c86f31f0] Finished in 1.227 seconds with exit status 1 (failed).
+ DEBUG [a19afc49] Running [ -f /var/www/html/releases/20190628071827/var/.setup_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [a19afc49] Command: [ -f /var/www/html/releases/20190628071827/var/.setup_cronjob_status ]
+ DEBUG [a31552d8] Finished in 1.124 seconds with exit status 1 (failed).
+  INFO [2448034c] Running /usr/bin/env ln -s /var/www/html/shared/var/.setup_cronjob_status /var/www/html/releases/20190628071827/var/.setup_cronjob_status as vagrant@34.66.18.125
+ DEBUG [2448034c] Command: /usr/bin/env ln -s /var/www/html/shared/var/.setup_cronjob_status /var/www/html/releases/20190628071827/var/.setup_cronjob_status
+  INFO [97bc0617] Finished in 1.225 seconds with exit status 0 (successful).
+ DEBUG [e6f7dc50] Running [ -L /var/www/html/releases/20190628071827/var/.update_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [e6f7dc50] Command: [ -L /var/www/html/releases/20190628071827/var/.update_cronjob_status ]
+ DEBUG [d6170400] Finished in 1.125 seconds with exit status 1 (failed).
+ DEBUG [ffce9360] Running [ -f /var/www/html/releases/20190628071827/var/.update_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [ffce9360] Command: [ -f /var/www/html/releases/20190628071827/var/.update_cronjob_status ]
+ DEBUG [83d51d41] Finished in 1.059 seconds with exit status 1 (failed).
+  INFO [32d97302] Running /usr/bin/env ln -s /var/www/html/shared/var/.update_cronjob_status /var/www/html/releases/20190628071827/var/.update_cronjob_status as vagrant@34.66.18.125
+ DEBUG [32d97302] Command: /usr/bin/env ln -s /var/www/html/shared/var/.update_cronjob_status /var/www/html/releases/20190628071827/var/.update_cronjob_status
+  INFO [770ee5ea] Finished in 1.189 seconds with exit status 0 (successful).
+  INFO [9a9cdb82] Running /usr/bin/env mkdir -p /var/www/html/releases/20190628071827/pub /var/www/html/releases/20190628071827/var as vagrant@34.66.18.125
+ DEBUG [9a9cdb82] Command: /usr/bin/env mkdir -p /var/www/html/releases/20190628071827/pub /var/www/html/releases/20190628071827/var
+  INFO [0fa089fd] Finished in 1.225 seconds with exit status 0 (successful).
+ DEBUG [e3347966] Running [ -L /var/www/html/releases/20190628071827/pub/media ] as vagrant@34.66.18.125
+ DEBUG [e3347966] Command: [ -L /var/www/html/releases/20190628071827/pub/media ]
+ DEBUG [b2caa5e2] Finished in 1.234 seconds with exit status 1 (failed).
+ DEBUG [e0a91f34] Running [ -d /var/www/html/releases/20190628071827/pub/media ] as vagrant@34.66.18.125
+ DEBUG [e0a91f34] Command: [ -d /var/www/html/releases/20190628071827/pub/media ]
+ DEBUG [820348d7] Finished in 1.219 seconds with exit status 0 (successful).
+  INFO [7172f26f] Running /usr/bin/env rm -rf /var/www/html/releases/20190628071827/pub/media as vagrant@34.66.18.125
+ DEBUG [7172f26f] Command: /usr/bin/env rm -rf /var/www/html/releases/20190628071827/pub/media
+  INFO [09d43d49] Finished in 1.125 seconds with exit status 0 (successful).
+  INFO [50807381] Running /usr/bin/env ln -s /var/www/html/shared/pub/media /var/www/html/releases/20190628071827/pub/media as vagrant@34.66.18.125
+ DEBUG [50807381] Command: /usr/bin/env ln -s /var/www/html/shared/pub/media /var/www/html/releases/20190628071827/pub/media
+  INFO [786b1b40] Finished in 1.224 seconds with exit status 0 (successful).
+ DEBUG [bd8fc300] Running [ -L /var/www/html/releases/20190628071827/pub/sitemaps ] as vagrant@34.66.18.125
+ DEBUG [bd8fc300] Command: [ -L /var/www/html/releases/20190628071827/pub/sitemaps ]
+ DEBUG [ce34c695] Finished in 1.126 seconds with exit status 1 (failed).
+ DEBUG [ba957d82] Running [ -d /var/www/html/releases/20190628071827/pub/sitemaps ] as vagrant@34.66.18.125
+ DEBUG [ba957d82] Command: [ -d /var/www/html/releases/20190628071827/pub/sitemaps ]
+ DEBUG [0a717fe6] Finished in 1.227 seconds with exit status 1 (failed).
+  INFO [b92c16a6] Running /usr/bin/env ln -s /var/www/html/shared/pub/sitemaps /var/www/html/releases/20190628071827/pub/sitemaps as vagrant@34.66.18.125
+ DEBUG [b92c16a6] Command: /usr/bin/env ln -s /var/www/html/shared/pub/sitemaps /var/www/html/releases/20190628071827/pub/sitemaps
+  INFO [12110c43] Finished in 1.125 seconds with exit status 0 (successful).
+ DEBUG [8ea05b35] Running [ -L /var/www/html/releases/20190628071827/var/backups ] as vagrant@34.66.18.125
+ DEBUG [8ea05b35] Command: [ -L /var/www/html/releases/20190628071827/var/backups ]
+ DEBUG [6b7a9e2c] Finished in 1.125 seconds with exit status 1 (failed).
+ DEBUG [589d7b09] Running [ -d /var/www/html/releases/20190628071827/var/backups ] as vagrant@34.66.18.125
+ DEBUG [589d7b09] Command: [ -d /var/www/html/releases/20190628071827/var/backups ]
+ DEBUG [b844ff95] Finished in 1.225 seconds with exit status 1 (failed).
+  INFO [a125adab] Running /usr/bin/env ln -s /var/www/html/shared/var/backups /var/www/html/releases/20190628071827/var/backups as vagrant@34.66.18.125
+ DEBUG [a125adab] Command: /usr/bin/env ln -s /var/www/html/shared/var/backups /var/www/html/releases/20190628071827/var/backups
+  INFO [9922897c] Finished in 1.227 seconds with exit status 0 (successful).
+ DEBUG [1a731c76] Running [ -L /var/www/html/releases/20190628071827/var/composer_home ] as vagrant@34.66.18.125
+ DEBUG [1a731c76] Command: [ -L /var/www/html/releases/20190628071827/var/composer_home ]
+ DEBUG [09a2605f] Finished in 1.226 seconds with exit status 1 (failed).
+ DEBUG [4b4adb47] Running [ -d /var/www/html/releases/20190628071827/var/composer_home ] as vagrant@34.66.18.125
+ DEBUG [4b4adb47] Command: [ -d /var/www/html/releases/20190628071827/var/composer_home ]
+ DEBUG [0acae894] Finished in 1.124 seconds with exit status 0 (successful).
+  INFO [5b16b15b] Running /usr/bin/env rm -rf /var/www/html/releases/20190628071827/var/composer_home as vagrant@34.66.18.125
+ DEBUG [5b16b15b] Command: /usr/bin/env rm -rf /var/www/html/releases/20190628071827/var/composer_home
+  INFO [7b493032] Finished in 1.534 seconds with exit status 0 (successful).
+  INFO [354353c8] Running /usr/bin/env ln -s /var/www/html/shared/var/composer_home /var/www/html/releases/20190628071827/var/composer_home as vagrant@34.66.18.125
+ DEBUG [354353c8] Command: /usr/bin/env ln -s /var/www/html/shared/var/composer_home /var/www/html/releases/20190628071827/var/composer_home
+  INFO [ef59ccac] Finished in 1.124 seconds with exit status 0 (successful).
+ DEBUG [4a31b397] Running [ -L /var/www/html/releases/20190628071827/var/importexport ] as vagrant@34.66.18.125
+ DEBUG [4a31b397] Command: [ -L /var/www/html/releases/20190628071827/var/importexport ]
+ DEBUG [a37e00d7] Finished in 1.738 seconds with exit status 1 (failed).
+ DEBUG [883f1951] Running [ -d /var/www/html/releases/20190628071827/var/importexport ] as vagrant@34.66.18.125
+ DEBUG [883f1951] Command: [ -d /var/www/html/releases/20190628071827/var/importexport ]
+ DEBUG [67258da7] Finished in 1.226 seconds with exit status 1 (failed).
+  INFO [311bbc87] Running /usr/bin/env ln -s /var/www/html/shared/var/importexport /var/www/html/releases/20190628071827/var/importexport as vagrant@34.66.18.125
+ DEBUG [311bbc87] Command: /usr/bin/env ln -s /var/www/html/shared/var/importexport /var/www/html/releases/20190628071827/var/importexport
+  INFO [3976e2c3] Finished in 1.227 seconds with exit status 0 (successful).
+ DEBUG [3e26a1e2] Running [ -L /var/www/html/releases/20190628071827/var/import_history ] as vagrant@34.66.18.125
+ DEBUG [3e26a1e2] Command: [ -L /var/www/html/releases/20190628071827/var/import_history ]
+ DEBUG [4825bafe] Finished in 1.126 seconds with exit status 1 (failed).
+ DEBUG [63effb28] Running [ -d /var/www/html/releases/20190628071827/var/import_history ] as vagrant@34.66.18.125
+ DEBUG [63effb28] Command: [ -d /var/www/html/releases/20190628071827/var/import_history ]
+ DEBUG [e90ebfbb] Finished in 1.125 seconds with exit status 1 (failed).
+  INFO [87655e42] Running /usr/bin/env ln -s /var/www/html/shared/var/import_history /var/www/html/releases/20190628071827/var/import_history as vagrant@34.66.18.125
+ DEBUG [87655e42] Command: /usr/bin/env ln -s /var/www/html/shared/var/import_history /var/www/html/releases/20190628071827/var/import_history
+  INFO [0c1fcf96] Finished in 0.611 seconds with exit status 0 (successful).
+ DEBUG [4516e72f] Running [ -L /var/www/html/releases/20190628071827/var/log ] as vagrant@34.66.18.125
+ DEBUG [4516e72f] Command: [ -L /var/www/html/releases/20190628071827/var/log ]
+ DEBUG [fe320808] Finished in 0.609 seconds with exit status 1 (failed).
+ DEBUG [8dc44d2a] Running [ -d /var/www/html/releases/20190628071827/var/log ] as vagrant@34.66.18.125
+ DEBUG [8dc44d2a] Command: [ -d /var/www/html/releases/20190628071827/var/log ]
+ DEBUG [dd313103] Finished in 0.614 seconds with exit status 0 (successful).
+  INFO [9fdd23ce] Running /usr/bin/env rm -rf /var/www/html/releases/20190628071827/var/log as vagrant@34.66.18.125
+ DEBUG [9fdd23ce] Command: /usr/bin/env rm -rf /var/www/html/releases/20190628071827/var/log
+  INFO [ce765b71] Finished in 0.614 seconds with exit status 0 (successful).
+  INFO [623059ba] Running /usr/bin/env ln -s /var/www/html/shared/var/log /var/www/html/releases/20190628071827/var/log as vagrant@34.66.18.125
+ DEBUG [623059ba] Command: /usr/bin/env ln -s /var/www/html/shared/var/log /var/www/html/releases/20190628071827/var/log
+  INFO [f06f4c24] Finished in 0.613 seconds with exit status 0 (successful).
+ DEBUG [c54b683c] Running [ -L /var/www/html/releases/20190628071827/var/session ] as vagrant@34.66.18.125
+ DEBUG [c54b683c] Command: [ -L /var/www/html/releases/20190628071827/var/session ]
+ DEBUG [f6fec18c] Finished in 0.612 seconds with exit status 1 (failed).
+ DEBUG [dea92c7b] Running [ -d /var/www/html/releases/20190628071827/var/session ] as vagrant@34.66.18.125
+ DEBUG [dea92c7b] Command: [ -d /var/www/html/releases/20190628071827/var/session ]
+ DEBUG [e82eb9a6] Finished in 0.511 seconds with exit status 1 (failed).
+  INFO [3b261409] Running /usr/bin/env ln -s /var/www/html/shared/var/session /var/www/html/releases/20190628071827/var/session as vagrant@34.66.18.125
+ DEBUG [3b261409] Command: /usr/bin/env ln -s /var/www/html/shared/var/session /var/www/html/releases/20190628071827/var/session
+  INFO [2a05c2a0] Finished in 0.508 seconds with exit status 0 (successful).
+ DEBUG [0ebe2d37] Running [ -L /var/www/html/releases/20190628071827/var/tmp ] as vagrant@34.66.18.125
+ DEBUG [0ebe2d37] Command: [ -L /var/www/html/releases/20190628071827/var/tmp ]
+ DEBUG [4032c9c1] Finished in 0.612 seconds with exit status 1 (failed).
+ DEBUG [f68d8b01] Running [ -d /var/www/html/releases/20190628071827/var/tmp ] as vagrant@34.66.18.125
+ DEBUG [f68d8b01] Command: [ -d /var/www/html/releases/20190628071827/var/tmp ]
+ DEBUG [6b323d35] Finished in 0.614 seconds with exit status 1 (failed).
+  INFO [e3d1052f] Running /usr/bin/env ln -s /var/www/html/shared/var/tmp /var/www/html/releases/20190628071827/var/tmp as vagrant@34.66.18.125
+ DEBUG [e3d1052f] Command: /usr/bin/env ln -s /var/www/html/shared/var/tmp /var/www/html/releases/20190628071827/var/tmp
+  INFO [44338f01] Finished in 0.545 seconds with exit status 0 (successful).
+ DEBUG [984d9b1c] Running [ -f /var/www/html/releases/20190628071827/app/etc/config.php ] as vagrant@34.66.18.125
+ DEBUG [984d9b1c] Command: [ -f /var/www/html/releases/20190628071827/app/etc/config.php ]
+ DEBUG [65365707] Finished in 0.574 seconds with exit status 0 (successful).
+ DEBUG [14b55266] Running /usr/bin/env php -r '; $cfg = include "/var/www/html/shared/app/etc/env.php";; exit((int)!isset($cfg["install"]["date"]));; ' as vagrant@34.66.18.125
+ DEBUG [14b55266] Command: /usr/bin/env php -r '; $cfg = include "/var/www/html/shared/app/etc/env.php";; exit((int)!isset($cfg["install"]["date"]));; '
+ DEBUG [05a7d9cb] Finished in 0.613 seconds with exit status 0 (successful).
+ DEBUG [936a0f1a] Running if test ! -d /var/www/html/releases/20190628071827; then echo "Directory does not exist '/var/www/html/releases/20190628071827'" 1>&2; false; fi as vagrant@34.66.18.125
+ DEBUG [936a0f1a] Command: if test ! -d /var/www/html/releases/20190628071827; then echo "Directory does not exist '/var/www/html/releases/20190628071827'" 1>&2; false; fi
+ DEBUG [7ba40693] Finished in 0.612 seconds with exit status 0 (successful).
+ DEBUG [aea2d3d7] Running if test ! -d /var/www/html/releases/20190628071827; then echo "Directory does not exist '/var/www/html/releases/20190628071827'" 1>&2; false; fi as vagrant@34.66.18.125
+ DEBUG [aea2d3d7] Command: if test ! -d /var/www/html/releases/20190628071827; then echo "Directory does not exist '/var/www/html/releases/20190628071827'" 1>&2; false; fi
+ DEBUG [c0ff5dcb] Finished in 0.612 seconds with exit status 0 (successful).
+  INFO [ed607c5e] Running /usr/bin/env composer install --prefer-dist --no-interaction --no-dev --optimize-autoloader 2>&1 as vagrant@34.66.18.125
+ DEBUG [ed607c5e] Command: cd /var/www/html/releases/20190628071827 && /usr/bin/env composer install --prefer-dist --no-interaction --no-dev --optimize-autoloader 2>&1
+ DEBUG [3f58324b] 	Loading composer repositories with package information
+ DEBUG [3f58324b] 	Installing dependencies from lock file
+ DEBUG [3f58324b] 	Package operations: 0 installs, 0 updates, 84 removals
+ DEBUG [3f58324b] 	  - Removing webmozart/assert (1.4.0)
+ DEBUG [3f58324b] 	Removing Webmozart/Assert
+ DEBUG [3f58324b] 	  - Removing vlucas/phpdotenv (v2.6.1)
+ DEBUG [3f58324b] 	Removing Vlucas/Phpdotenv
+ DEBUG [3f58324b] 	  - Removing theseer/tokenizer (1.1.3)
+ DEBUG [3f58324b] 	Removing Theseer/Tokenizer
+ DEBUG [3f58324b] 	  - Removing theseer/fdomdocument (1.6.6)
+ DEBUG [3f58324b] 	Removing Theseer/Fdomdocument
+ DEBUG [3f58324b] 	  - Removing symfony/yaml (v3.4.29)
+ DEBUG [3f58324b] 	Removing Symfony/Yaml
+ DEBUG [3f58324b] 	  - Removing symfony/stopwatch (v4.3.2)
+ DEBUG [3f58324b] 	Removing Symfony/Stopwatch
+ DEBUG [3f58324b] 	  - Removing symfony/service-contracts (v1.1.5)
+ DEBUG [3f58324b] 	Removing Symfony/ServiceContracts
+ DEBUG [3f58324b] 	  - Removing symfony/polyfill-php72 (v1.11.0)
+ DEBUG [3f58324b] 	Removing Symfony/PolyfillPhp72
+ DEBUG [3f58324b] 	  - Removing symfony/polyfill-php70 (v1.11.0)
+ DEBUG [3f58324b] 	Removing Symfony/PolyfillPhp70
+ DEBUG [3f58324b] 	  - Removing symfony/polyfill-intl-idn (v1.11.0)
+ DEBUG [3f58324b] 	Removing Symfony/PolyfillIntlIdn
+ DEBUG [3f58324b] 	  - Removing symfony/mime (v4.3.2)
+ DEBUG [3f58324b] 	Removing Symfony/Mime
+ DEBUG [3f58324b] 	  - Removing symfony/http-foundation (v4.3.2)
+ DEBUG [3f58324b] 	Removing Symfony/HttpFoundation
+ DEBUG [3f58324b] 	  - Removing symfony/dom-crawler (v4.3.2)
+ DEBUG [3f58324b] 	Removing Symfony/DomCrawler
+ DEBUG [3f58324b] 	  - Removing symfony/dependency-injection (v4.3.2)
+ DEBUG [3f58324b] 	Removing Symfony/DependencyInjection
+ DEBUG [3f58324b] 	  - Removing symfony/config (v4.3.2)
+ DEBUG [3f58324b] 	Removing Symfony/Config
+ DEBUG [3f58324b] 	  - Removing symfony/browser-kit (v4.3.2)
+ DEBUG [3f58324b] 	Removing Symfony/BrowserKit
+ DEBUG [3f58324b] 	  - Removing squizlabs/php_codesniffer (3.3.1)
+ DEBUG [3f58324b] 	Removing Squizlabs/Php_codesniffer
+ DEBUG [3f58324b] 	  - Removing sebastian/version (2.0.1)
+ DEBUG [3f58324b] 	Removing Sebastian/Version
+ DEBUG [3f58324b] 	  - Removing sebastian/resource-operations (1.0.0)
+ DEBUG [3f58324b] 	Removing Sebastian/ResourceOperations
+ DEBUG [3f58324b] 	  - Removing sebastian/recursion-context (3.0.0)
+ DEBUG [3f58324b] 	Removing Sebastian/RecursionContext
+ DEBUG [3f58324b] 	  - Removing sebastian/phpcpd (3.0.1)
+ DEBUG [3f58324b] 	Removing Sebastian/Phpcpd
+ DEBUG [3f58324b] 	  - Removing sebastian/object-reflector (1.1.1)
+ DEBUG [3f58324b] 	Removing Sebastian/ObjectReflector
+ DEBUG [3f58324b] 	  - Removing sebastian/object-enumerator (3.0.3)
+ DEBUG [3f58324b] 	Removing Sebastian/ObjectEnumerator
+ DEBUG [3f58324b] 	  - Removing sebastian/global-state (2.0.0)
+ DEBUG [3f58324b] 	Removing Sebastian/GlobalState
+ DEBUG [3f58324b] 	  - Removing sebastian/finder-facade (1.2.2)
+ DEBUG [3f58324b] 	Removing Sebastian/FinderFacade
+ DEBUG [3f58324b] 	  - Removing sebastian/exporter (3.1.0)
+ DEBUG [3f58324b] 	Removing Sebastian/Exporter
+ DEBUG [3f58324b] 	  - Removing sebastian/environment (3.1.0)
+ DEBUG [3f58324b] 	Removing Sebastian/Environment
+ DEBUG [3f58324b] 	  - Removing sebastian/diff (2.0.1)
+ DEBUG [3f58324b] 	Removing Sebastian/Diff
+ DEBUG [3f58324b] 	  - Removing sebastian/comparator (2.1.3)
+ DEBUG [3f58324b] 	Removing Sebastian/Comparator
+ DEBUG [3f58324b] 	  - Removing sebastian/code-unit-reverse-lookup (1.0.1)
+ DEBUG [3f58324b] 	Removing Sebastian/CodeUnitReverseLookup
+ DEBUG [3f58324b] 	  - Removing phpunit/phpunit-mock-objects (5.0.10)
+ DEBUG [3f58324b] 	Removing Phpunit/PhpunitMockObjects
+ DEBUG [3f58324b] 	  - Removing phpunit/phpunit (6.5.14)
+ DEBUG [3f58324b] 	Removing Phpunit/Phpunit
+ DEBUG [3f58324b] 	  - Removing phpunit/php-token-stream (2.0.2)
+ DEBUG [3f58324b] 	Removing Phpunit/PhpTokenStream
+ DEBUG [3f58324b] 	  - Removing phpunit/php-timer (1.0.9)
+ DEBUG [3f58324b] 	Removing Phpunit/PhpTimer
+ DEBUG [3f58324b] 	  - Removing phpunit/php-text-template (1.2.1)
+ DEBUG [3f58324b] 	Removing Phpunit/PhpTextTemplate
+ DEBUG [3f58324b] 	  - Removing phpunit/php-file-iterator (1.4.5)
+ DEBUG [3f58324b] 	Removing Phpunit/PhpFileIterator
+ DEBUG [3f58324b] 	  - Removing phpunit/php-code-coverage (5.3.2)
+ DEBUG [3f58324b] 	Removing Phpunit/PhpCodeCoverage
+ DEBUG [3f58324b] 	  - Removing phpspec/prophecy (1.8.1)
+ DEBUG [3f58324b] 	Removing Phpspec/Prophecy
+ DEBUG [3f58324b] 	  - Removing phpoption/phpoption (1.5.0)
+ DEBUG [3f58324b] 	Removing Phpoption/Phpoption
+ DEBUG [3f58324b] 	  - Removing phpmd/phpmd (2.6.0)
+ DEBUG [3f58324b] 	Removing Phpmd/Phpmd
+ DEBUG [3f58324b] 	  - Removing phpdocumentor/type-resolver (0.4.0)
+ DEBUG [3f58324b] 	Removing Phpdocumentor/TypeResolver
+ DEBUG [3f58324b] 	  - Removing phpdocumentor/reflection-docblock (4.3.1)
+ DEBUG [3f58324b] 	Removing Phpdocumentor/ReflectionDocblock
+ DEBUG [3f58324b] 	  - Removing phpdocumentor/reflection-common (1.0.1)
+ DEBUG [3f58324b] 	Removing Phpdocumentor/ReflectionCommon
+ DEBUG [3f58324b] 	  - Removing phpcollection/phpcollection (0.5.0)
+ DEBUG [3f58324b] 	Removing Phpcollection/Phpcollection
+ DEBUG [3f58324b] 	  - Removing php-cs-fixer/diff (v1.3.0)
+ DEBUG [3f58324b] 	Removing Php-cs-fixer/Diff
+ DEBUG [3f58324b] 	  - Removing phar-io/version (1.0.1)
+ DEBUG [3f58324b] 	Removing Phar-io/Version
+ DEBUG [3f58324b] 	  - Removing phar-io/manifest (1.0.1)
+ DEBUG [3f58324b] 	Removing Phar-io/Manifest
+ DEBUG [3f58324b] 	  - Removing pdepend/pdepend (2.5.2)
+ DEBUG [3f58324b] 	Removing Pdepend/Pdepend
+ DEBUG [3f58324b] 	  - Removing myclabs/deep-copy (1.9.1)
+ DEBUG [3f58324b] 	Removing Myclabs/DeepCopy
+ DEBUG [3f58324b] 	  - Removing mustache/mustache (v2.12.0)
+ DEBUG [3f58324b] 	Removing Mustache/Mustache
+ DEBUG [3f58324b] 	  - Removing moontoast/math (1.1.2)
+ DEBUG [3f58324b] 	Removing Moontoast/Math
+ DEBUG [3f58324b] 	  - Removing mikey179/vfsstream (v1.6.6)
+ DEBUG [3f58324b] 	Removing Mikey179/Vfsstream
+ DEBUG [3f58324b] 	  - Removing magento/magento2-functional-testing-framework (2.3.14)
+ DEBUG [3f58324b] 	Removing Magento/Magento2FunctionalTestingFramework
+ DEBUG [3f58324b] 	  - Removing magento/magento-coding-standard (1.0.2)
+ DEBUG [3f58324b] 	Removing Magento/MagentoCodingStandard
+ DEBUG [3f58324b] 	  - Removing lusitanian/oauth (v0.8.11)
+ DEBUG [3f58324b] 	Removing Lusitanian/Oauth
+ DEBUG [3f58324b] 	  - Removing league/container (2.4.1)
+ DEBUG [3f58324b] 	Removing League/Container
+ DEBUG [3f58324b] 	  - Removing jms/serializer (1.14.0)
+ DEBUG [3f58324b] 	Removing Jms/Serializer
+ DEBUG [3f58324b] 	  - Removing jms/parser-lib (1.0.0)
+ DEBUG [3f58324b] 	Removing Jms/ParserLib
+ DEBUG [3f58324b] 	  - Removing jms/metadata (1.7.0)
+ DEBUG [3f58324b] 	Removing Jms/Metadata
+ DEBUG [3f58324b] 	  - Removing grasmash/yaml-expander (1.4.0)
+ DEBUG [3f58324b] 	Removing Grasmash/YamlExpander
+ DEBUG [3f58324b] 	  - Removing grasmash/expander (1.0.0)
+ DEBUG [3f58324b] 	Removing Grasmash/Expander
+ DEBUG [3f58324b] 	  - Removing fzaninotto/faker (v1.8.0)
+ DEBUG [3f58324b] 	Removing Fzaninotto/Faker
+ DEBUG [3f58324b] 	  - Removing friendsofphp/php-cs-fixer (v2.13.3)
+ DEBUG [3f58324b] 	Removing Friendsofphp/PhpCsFixer
+ DEBUG [3f58324b] 	  - Removing flow/jsonpath (0.4.0)
+ DEBUG [3f58324b] 	Removing Flow/Jsonpath
+ DEBUG [3f58324b] 	  - Removing facebook/webdriver (1.7.1)
+ DEBUG [3f58324b] 	Removing Facebook/Webdriver
+ DEBUG [3f58324b] 	  - Removing epfremme/swagger-php (v2.0.0)
+ DEBUG [3f58324b] 	Removing Epfremme/SwaggerPhp
+ DEBUG [3f58324b] 	  - Removing doctrine/lexer (1.0.2)
+ DEBUG [3f58324b] 	Removing Doctrine/Lexer
+ DEBUG [3f58324b] 	  - Removing doctrine/instantiator (1.2.0)
+ DEBUG [3f58324b] 	Removing Doctrine/Instantiator
+ DEBUG [3f58324b] 	  - Removing doctrine/collections (v1.6.2)
+ DEBUG [3f58324b] 	Removing Doctrine/Collections
+ DEBUG [3f58324b] 	  - Removing doctrine/annotations (v1.6.1)
+ DEBUG [3f58324b] 	Removing Doctrine/Annotations
+ DEBUG [3f58324b] 	  - Removing dflydev/dot-access-data (v1.1.0)
+ DEBUG [3f58324b] 	Removing Dflydev/DotAccessData
+ DEBUG [3f58324b] 	  - Removing consolidation/self-update (1.1.5)
+ DEBUG [3f58324b] 	Removing Consolidation/SelfUpdate
+ DEBUG [3f58324b] 	  - Removing consolidation/robo (1.4.9)
+ DEBUG [3f58324b] 	Removing Consolidation/Robo
+ DEBUG [3f58324b] 	  - Removing consolidation/output-formatters (3.5.0)
+ DEBUG [3f58324b] 	Removing Consolidation/OutputFormatters
+ DEBUG [3f58324b] 	  - Removing consolidation/log (1.1.1)
+ DEBUG [3f58324b] 	Removing Consolidation/Log
+ DEBUG [3f58324b] 	  - Removing consolidation/config (1.2.1)
+ DEBUG [3f58324b] 	Removing Consolidation/Config
+ DEBUG [3f58324b] 	  - Removing consolidation/annotated-command (2.12.0)
+ DEBUG [3f58324b] 	Removing Consolidation/AnnotatedCommand
+ DEBUG [3f58324b] 	  - Removing codeception/stub (2.1.0)
+ DEBUG [3f58324b] 	Removing Codeception/Stub
+ DEBUG [3f58324b] 	  - Removing codeception/phpunit-wrapper (6.6.1)
+ DEBUG [3f58324b] 	Removing Codeception/PhpunitWrapper
+ DEBUG [3f58324b] 	  - Removing codeception/codeception (2.4.5)
+ DEBUG [3f58324b] 	Removing Codeception/Codeception
+ DEBUG [3f58324b] 	  - Removing behat/gherkin (v4.6.0)
+ DEBUG [3f58324b] 	Removing Behat/Gherkin
+ DEBUG [3f58324b] 	  - Removing allure-framework/allure-phpunit (1.2.3)
+ DEBUG [3f58324b] 	Removing Allure-framework/AllurePhpunit
+ DEBUG [3f58324b] 	  - Removing allure-framework/allure-php-api (1.1.4)
+ DEBUG [3f58324b] 	Removing Allure-framework/AllurePhpApi
+ DEBUG [3f58324b] 	  - Removing allure-framework/allure-codeception (1.3.0)
+ DEBUG [3f58324b] 	Removing Allure-framework/AllureCodeception
+ DEBUG [3f58324b] 	Generating optimized autoload files
+  INFO [3f58324b] Finished in 6.858 seconds with exit status 0 (successful).
+ DEBUG [b8df4e9c] Running [ -f /var/www/html/releases/20190628071827/update/composer.json ] as vagrant@34.66.18.125
+ DEBUG [b8df4e9c] Command: [ -f /var/www/html/releases/20190628071827/update/composer.json ]
+ DEBUG [4168162f] Finished in 0.613 seconds with exit status 0 (successful).
+  INFO [62e6a2c3] Running /usr/bin/env composer install --prefer-dist --no-interaction --no-dev --optimize-autoloader -d ./update 2>&1 as vagrant@34.66.18.125
+ DEBUG [62e6a2c3] Command: cd /var/www/html/releases/20190628071827 && /usr/bin/env composer install --prefer-dist --no-interaction --no-dev --optimize-autoloader -d ./update 2>&1
+ DEBUG [ca8e24cc] 	Loading composer repositories with package information
+ DEBUG [ca8e24cc] 	Installing dependencies from lock file
+ DEBUG [ca8e24cc] 	Package operations: 0 installs, 0 updates, 29 removals
+ DEBUG [ca8e24cc] 	  - Removing symfony/debug (v3.0.9)
+ DEBUG [ca8e24cc] 	  - Removing phpunit/phpunit (7.0.3)
+ DEBUG [ca8e24cc] 	  - Removing myclabs/deep-copy (1.7.0)
+ DEBUG [ca8e24cc] 	  - Removing phar-io/manifest (1.0.1)
+ DEBUG [ca8e24cc] 	  - Removing phar-io/version (1.0.1)
+ DEBUG [ca8e24cc] 	  - Removing phpspec/prophecy (1.7.5)
+ DEBUG [ca8e24cc] 	  - Removing phpunit/php-code-coverage (6.0.1)
+ DEBUG [ca8e24cc] 	  - Removing sebastian/code-unit-reverse-lookup (1.0.1)
+ DEBUG [ca8e24cc] 	  - Removing theseer/tokenizer (1.1.0)
+ DEBUG [ca8e24cc] 	  - Removing phpunit/php-file-iterator (1.4.5)
+ DEBUG [ca8e24cc] 	  - Removing phpunit/php-timer (2.0.0)
+ DEBUG [ca8e24cc] 	  - Removing phpunit/phpunit-mock-objects (6.0.1)
+ DEBUG [ca8e24cc] 	  - Removing doctrine/instantiator (1.1.0)
+ DEBUG [ca8e24cc] 	  - Removing phpunit/php-text-template (1.2.1)
+ DEBUG [ca8e24cc] 	  - Removing sebastian/comparator (2.1.3)
+ DEBUG [ca8e24cc] 	  - Removing sebastian/diff (3.0.0)
+ DEBUG [ca8e24cc] 	  - Removing sebastian/environment (3.1.0)
+ DEBUG [ca8e24cc] 	  - Removing sebastian/exporter (3.1.0)
+ DEBUG [ca8e24cc] 	  - Removing sebastian/global-state (2.0.0)
+ DEBUG [ca8e24cc] 	  - Removing sebastian/object-enumerator (3.0.3)
+ DEBUG [ca8e24cc] 	  - Removing sebastian/object-reflector (1.1.1)
+ DEBUG [ca8e24cc] 	  - Removing sebastian/recursion-context (3.0.0)
+ DEBUG [ca8e24cc] 	  - Removing sebastian/resource-operations (1.0.0)
+ DEBUG [ca8e24cc] 	  - Removing sebastian/version (2.0.1)
+ DEBUG [ca8e24cc] 	  - Removing phpunit/php-token-stream (3.0.0)
+ DEBUG [ca8e24cc] 	  - Removing phpdocumentor/reflection-docblock (4.3.0)
+ DEBUG [ca8e24cc] 	  - Removing phpdocumentor/type-resolver (0.4.0)
+ DEBUG [ca8e24cc] 	  - Removing phpdocumentor/reflection-common (1.0.1)
+ DEBUG [ca8e24cc] 	  - Removing webmozart/assert (1.3.0)
+ DEBUG [ca8e24cc] 	Generating optimized autoload files
+  INFO [ca8e24cc] Finished in 1.071 seconds with exit status 0 (successful).
+ DEBUG [5961be66] Running if test ! -d /var/www/html/releases/20190628071827; then echo "Directory does not exist '/var/www/html/releases/20190628071827'" 1>&2; false; fi as vagrant@34.66.18.125
+ DEBUG [5961be66] Command: if test ! -d /var/www/html/releases/20190628071827; then echo "Directory does not exist '/var/www/html/releases/20190628071827'" 1>&2; false; fi
+ DEBUG [6a511e6b] Finished in 0.561 seconds with exit status 0 (successful).
+ DEBUG [416adf90] Running /usr/bin/env php -f /var/www/html/releases/20190628071827/bin/magento -- -V --no-ansi as vagrant@34.66.18.125
+ DEBUG [416adf90] Command: cd /var/www/html/releases/20190628071827 && /usr/bin/env php -f /var/www/html/releases/20190628071827/bin/magento -- -V --no-ansi
+ DEBUG [a96000aa] 	Class Magento\Framework\App\ResourceConnection\Proxy does not exist
+  INFO ---------------------------------------------------------------------------
+  INFO START 2019-06-28 11:34:19 +0400 cap production deploy
+  INFO ---------------------------------------------------------------------------
+ DEBUG [d275cb26] Running [ -f /var/www/html/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [d275cb26] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [08fe1abf] Finished in 3.373 seconds with exit status 1 (failed).
+  WARN [0;31mSkipping pending changes check on 34.66.18.125 (no REVISION file found)[0m
+ DEBUG [360907bd] Running [ -f /var/www/html/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [360907bd] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [90d5f03c] Finished in 0.610 seconds with exit status 1 (failed).
+  INFO [d90d63e4] Running /usr/bin/env mkdir -p /tmp as vagrant@34.66.18.125
+ DEBUG [d90d63e4] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c565e7a8] Finished in 0.545 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 0.0%
+  INFO Uploading /tmp/git-ssh-my_magento_store-production-vagrant.sh 100.0%
+  INFO [6c58784a] Running /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh as vagrant@34.66.18.125
+ DEBUG [6c58784a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-my_magento_store-production-vagrant.sh
+  INFO [d7ddfa1d] Finished in 0.553 seconds with exit status 0 (successful).
+  INFO [53b19103] Running /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD as vagrant@34.66.18.125
+ DEBUG [53b19103] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git ls-remote git@github.com:rizwanwakil2018/magento-production.git HEAD )
+ DEBUG [f99d5200] 	d1718296617e8cdff4d8955421ae87c620f99491	HEAD
+  INFO [f99d5200] Finished in 1.260 seconds with exit status 0 (successful).
+  INFO [f10eb71b] Running /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases as vagrant@34.66.18.125
+ DEBUG [f10eb71b] Command: /usr/bin/env mkdir -p /var/www/html/shared /var/www/html/releases
+  INFO [9612cb89] Finished in 0.592 seconds with exit status 0 (successful).
+  INFO [6b554b3b] Running /usr/bin/env mkdir -p /var/www/html/shared/pub/media /var/www/html/shared/pub/sitemaps /var/www/html/shared/var/backups /var/www/html/shared/var/composer_home /var/www/html/shared/var/importexport /var/www/html/shared/var/import_history /var/www/html/shared/var/log /var/www/html/shared/var/session /var/www/html/shared/var/tmp as vagrant@34.66.18.125
+ DEBUG [6b554b3b] Command: /usr/bin/env mkdir -p /var/www/html/shared/pub/media /var/www/html/shared/pub/sitemaps /var/www/html/shared/var/backups /var/www/html/shared/var/composer_home /var/www/html/shared/var/importexport /var/www/html/shared/var/import_history /var/www/html/shared/var/log /var/www/html/shared/var/session /var/www/html/shared/var/tmp
+  INFO [f4190167] Finished in 0.633 seconds with exit status 0 (successful).
+  INFO [ad099df0] Running /usr/bin/env mkdir -p /var/www/html/shared/app/etc /var/www/html/shared/var as vagrant@34.66.18.125
+ DEBUG [ad099df0] Command: /usr/bin/env mkdir -p /var/www/html/shared/app/etc /var/www/html/shared/var
+  INFO [e493ded4] Finished in 0.677 seconds with exit status 0 (successful).
+ DEBUG [b2b3964c] Running [ -f /var/www/html/shared/app/etc/env.php ] as vagrant@34.66.18.125
+ DEBUG [b2b3964c] Command: [ -f /var/www/html/shared/app/etc/env.php ]
+ DEBUG [3fb0ae42] Finished in 0.683 seconds with exit status 0 (successful).
+ DEBUG [43cd3ad7] Running [ -f /var/www/html/shared/app/etc/config.local.php ] as vagrant@34.66.18.125
+ DEBUG [43cd3ad7] Command: [ -f /var/www/html/shared/app/etc/config.local.php ]
+ DEBUG [caa55192] Finished in 0.545 seconds with exit status 0 (successful).
+ DEBUG [7a555270] Running [ -f /var/www/html/shared/var/.setup_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [7a555270] Command: [ -f /var/www/html/shared/var/.setup_cronjob_status ]
+ DEBUG [2e0ea5b6] Finished in 0.504 seconds with exit status 0 (successful).
+ DEBUG [9df81729] Running [ -f /var/www/html/shared/var/.update_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [9df81729] Command: [ -f /var/www/html/shared/var/.update_cronjob_status ]
+ DEBUG [e7a6dbb5] Finished in 0.502 seconds with exit status 0 (successful).
+ DEBUG [a37f96d0] Running [ -f /var/www/html/shared/app/etc/env.php ] as vagrant@34.66.18.125
+ DEBUG [a37f96d0] Command: [ -f /var/www/html/shared/app/etc/env.php ]
+ DEBUG [97e06d11] Finished in 0.546 seconds with exit status 0 (successful).
+ DEBUG [c4b0becc] Running [ -f /var/www/html/shared/app/etc/config.local.php ] as vagrant@34.66.18.125
+ DEBUG [c4b0becc] Command: [ -f /var/www/html/shared/app/etc/config.local.php ]
+ DEBUG [c5dc32f7] Finished in 0.615 seconds with exit status 0 (successful).
+ DEBUG [8ffb94c1] Running [ -f /var/www/html/shared/var/.setup_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [8ffb94c1] Command: [ -f /var/www/html/shared/var/.setup_cronjob_status ]
+ DEBUG [90780fb8] Finished in 0.603 seconds with exit status 0 (successful).
+ DEBUG [faff5186] Running [ -f /var/www/html/shared/var/.update_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [faff5186] Command: [ -f /var/www/html/shared/var/.update_cronjob_status ]
+ DEBUG [adb1807b] Finished in 0.622 seconds with exit status 0 (successful).
+ DEBUG [8afbe00a] Running [ -f /var/www/html/current/REVISION ] as vagrant@34.66.18.125
+ DEBUG [8afbe00a] Command: [ -f /var/www/html/current/REVISION ]
+ DEBUG [867d8b67] Finished in 0.613 seconds with exit status 1 (failed).
+ DEBUG [ee734820] Running [ -f /var/www/html/repo/HEAD ] as vagrant@34.66.18.125
+ DEBUG [ee734820] Command: [ -f /var/www/html/repo/HEAD ]
+ DEBUG [b7c5bfd3] Finished in 0.567 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/html/repo
+ DEBUG [31cda762] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as vagrant@34.66.18.125
+ DEBUG [31cda762] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [67621653] Finished in 0.501 seconds with exit status 0 (successful).
+  INFO [3e044735] Running /usr/bin/env git remote set-url origin git@github.com:rizwanwakil2018/magento-production.git as vagrant@34.66.18.125
+ DEBUG [3e044735] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git remote set-url origin git@github.com:rizwanwakil2018/magento-production.git )
+  INFO [3d912f47] Finished in 0.485 seconds with exit status 0 (successful).
+  INFO [ff9c7895] Running /usr/bin/env git remote update --prune as vagrant@34.66.18.125
+ DEBUG [ff9c7895] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [b23dd1a2] 	Fetching origin
+  INFO [b23dd1a2] Finished in 1.306 seconds with exit status 0 (successful).
+ DEBUG [d6dcf95d] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as vagrant@34.66.18.125
+ DEBUG [d6dcf95d] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [8d61afe2] Finished in 0.611 seconds with exit status 0 (successful).
+  INFO [0f358bd2] Running /usr/bin/env mkdir -p /var/www/html/releases/20190628073434 as vagrant@34.66.18.125
+ DEBUG [0f358bd2] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env mkdir -p /var/www/html/releases/20190628073434 )
+  INFO [3a110900] Finished in 0.613 seconds with exit status 0 (successful).
+  INFO [67d08ae6] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/releases/20190628073434 as vagrant@34.66.18.125
+ DEBUG [67d08ae6] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/html/releases/20190628073434 )
+  INFO [77aac1b7] Finished in 10.850 seconds with exit status 0 (successful).
+ DEBUG [f0eb76a7] Running if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi as vagrant@34.66.18.125
+ DEBUG [f0eb76a7] Command: if test ! -d /var/www/html/repo; then echo "Directory does not exist '/var/www/html/repo'" 1>&2; false; fi
+ DEBUG [d2e112a7] Finished in 0.608 seconds with exit status 0 (successful).
+ DEBUG [f6e91b37] Running /usr/bin/env git rev-list --max-count=1 master as vagrant@34.66.18.125
+ DEBUG [f6e91b37] Command: cd /var/www/html/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-my_magento_store-production-vagrant.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [bcd1fd16] 	d1718296617e8cdff4d8955421ae87c620f99491
+ DEBUG [bcd1fd16] Finished in 1.124 seconds with exit status 0 (successful).
+ DEBUG [b1c010db] Running if test ! -d /var/www/html/releases/20190628073434; then echo "Directory does not exist '/var/www/html/releases/20190628073434'" 1>&2; false; fi as vagrant@34.66.18.125
+ DEBUG [b1c010db] Command: if test ! -d /var/www/html/releases/20190628073434; then echo "Directory does not exist '/var/www/html/releases/20190628073434'" 1>&2; false; fi
+ DEBUG [6bf5df63] Finished in 1.125 seconds with exit status 0 (successful).
+  INFO [7597e187] Running /usr/bin/env echo "d1718296617e8cdff4d8955421ae87c620f99491" > REVISION as vagrant@34.66.18.125
+ DEBUG [7597e187] Command: cd /var/www/html/releases/20190628073434 && /usr/bin/env echo "d1718296617e8cdff4d8955421ae87c620f99491" > REVISION
+  INFO [25f0eb51] Finished in 1.638 seconds with exit status 0 (successful).
+ DEBUG [d1c72089] Running [ -f /var/www/html/releases/20190628073434/app/etc/config.local.php ] as vagrant@34.66.18.125
+ DEBUG [d1c72089] Command: [ -f /var/www/html/releases/20190628073434/app/etc/config.local.php ]
+ DEBUG [d2a18815] Finished in 1.227 seconds with exit status 1 (failed).
+ DEBUG [4f261de8] Running /usr/bin/env php -r '; $cfg = include "/var/www/html/releases/20190628073434/app/etc/config.php";; exit((int)(isset($cfg["scopes"]) && isset($cfg["themes"])));; ' as vagrant@34.66.18.125
+ DEBUG [4f261de8] Command: /usr/bin/env php -r '; $cfg = include "/var/www/html/releases/20190628073434/app/etc/config.php";; exit((int)(isset($cfg["scopes"]) && isset($cfg["themes"])));; '
+ DEBUG [a2fdddca] Finished in 1.087 seconds with exit status 0 (successful).
+  INFO [9133b2ac] Running /usr/bin/env mkdir -p /var/www/html/releases/20190628073434/app/etc /var/www/html/releases/20190628073434/var as vagrant@34.66.18.125
+ DEBUG [9133b2ac] Command: /usr/bin/env mkdir -p /var/www/html/releases/20190628073434/app/etc /var/www/html/releases/20190628073434/var
+  INFO [b3d77e1b] Finished in 1.772 seconds with exit status 0 (successful).
+ DEBUG [56d72e48] Running [ -L /var/www/html/releases/20190628073434/app/etc/env.php ] as vagrant@34.66.18.125
+ DEBUG [56d72e48] Command: [ -L /var/www/html/releases/20190628073434/app/etc/env.php ]
+ DEBUG [6fc6be9e] Finished in 1.227 seconds with exit status 1 (failed).
+ DEBUG [4bfc1c8f] Running [ -f /var/www/html/releases/20190628073434/app/etc/env.php ] as vagrant@34.66.18.125
+ DEBUG [4bfc1c8f] Command: [ -f /var/www/html/releases/20190628073434/app/etc/env.php ]
+ DEBUG [04b50d26] Finished in 1.228 seconds with exit status 0 (successful).
+  INFO [149cb444] Running /usr/bin/env rm /var/www/html/releases/20190628073434/app/etc/env.php as vagrant@34.66.18.125
+ DEBUG [149cb444] Command: /usr/bin/env rm /var/www/html/releases/20190628073434/app/etc/env.php
+  INFO [f82522b7] Finished in 1.226 seconds with exit status 0 (successful).
+  INFO [8eb89cd9] Running /usr/bin/env ln -s /var/www/html/shared/app/etc/env.php /var/www/html/releases/20190628073434/app/etc/env.php as vagrant@34.66.18.125
+ DEBUG [8eb89cd9] Command: /usr/bin/env ln -s /var/www/html/shared/app/etc/env.php /var/www/html/releases/20190628073434/app/etc/env.php
+  INFO [df65b773] Finished in 1.227 seconds with exit status 0 (successful).
+ DEBUG [80021331] Running [ -L /var/www/html/releases/20190628073434/app/etc/config.local.php ] as vagrant@34.66.18.125
+ DEBUG [80021331] Command: [ -L /var/www/html/releases/20190628073434/app/etc/config.local.php ]
+ DEBUG [d80ddf6f] Finished in 1.227 seconds with exit status 1 (failed).
+ DEBUG [15b0905c] Running [ -f /var/www/html/releases/20190628073434/app/etc/config.local.php ] as vagrant@34.66.18.125
+ DEBUG [15b0905c] Command: [ -f /var/www/html/releases/20190628073434/app/etc/config.local.php ]
+ DEBUG [3293d8ef] Finished in 1.124 seconds with exit status 1 (failed).
+  INFO [647decbd] Running /usr/bin/env ln -s /var/www/html/shared/app/etc/config.local.php /var/www/html/releases/20190628073434/app/etc/config.local.php as vagrant@34.66.18.125
+ DEBUG [647decbd] Command: /usr/bin/env ln -s /var/www/html/shared/app/etc/config.local.php /var/www/html/releases/20190628073434/app/etc/config.local.php
+  INFO [0f07a450] Finished in 1.227 seconds with exit status 0 (successful).
+ DEBUG [1f45d85d] Running [ -L /var/www/html/releases/20190628073434/var/.setup_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [1f45d85d] Command: [ -L /var/www/html/releases/20190628073434/var/.setup_cronjob_status ]
+ DEBUG [27ed8e79] Finished in 1.124 seconds with exit status 1 (failed).
+ DEBUG [ae77ad88] Running [ -f /var/www/html/releases/20190628073434/var/.setup_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [ae77ad88] Command: [ -f /var/www/html/releases/20190628073434/var/.setup_cronjob_status ]
+ DEBUG [65dff1a7] Finished in 1.228 seconds with exit status 1 (failed).
+  INFO [666a3cfb] Running /usr/bin/env ln -s /var/www/html/shared/var/.setup_cronjob_status /var/www/html/releases/20190628073434/var/.setup_cronjob_status as vagrant@34.66.18.125
+ DEBUG [666a3cfb] Command: /usr/bin/env ln -s /var/www/html/shared/var/.setup_cronjob_status /var/www/html/releases/20190628073434/var/.setup_cronjob_status
+  INFO [ae475b00] Finished in 1.122 seconds with exit status 0 (successful).
+ DEBUG [8e75d9db] Running [ -L /var/www/html/releases/20190628073434/var/.update_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [8e75d9db] Command: [ -L /var/www/html/releases/20190628073434/var/.update_cronjob_status ]
+ DEBUG [01895b53] Finished in 1.228 seconds with exit status 1 (failed).
+ DEBUG [8ce10eca] Running [ -f /var/www/html/releases/20190628073434/var/.update_cronjob_status ] as vagrant@34.66.18.125
+ DEBUG [8ce10eca] Command: [ -f /var/www/html/releases/20190628073434/var/.update_cronjob_status ]
+ DEBUG [9017f63f] Finished in 1.123 seconds with exit status 1 (failed).
+  INFO [4d9f9573] Running /usr/bin/env ln -s /var/www/html/shared/var/.update_cronjob_status /var/www/html/releases/20190628073434/var/.update_cronjob_status as vagrant@34.66.18.125
+ DEBUG [4d9f9573] Command: /usr/bin/env ln -s /var/www/html/shared/var/.update_cronjob_status /var/www/html/releases/20190628073434/var/.update_cronjob_status
+  INFO [0f5dfc30] Finished in 1.230 seconds with exit status 0 (successful).
+  INFO [eec470b5] Running /usr/bin/env mkdir -p /var/www/html/releases/20190628073434/pub /var/www/html/releases/20190628073434/var as vagrant@34.66.18.125
+ DEBUG [eec470b5] Command: /usr/bin/env mkdir -p /var/www/html/releases/20190628073434/pub /var/www/html/releases/20190628073434/var
+  INFO [5efaaf14] Finished in 1.225 seconds with exit status 0 (successful).
+ DEBUG [e58de598] Running [ -L /var/www/html/releases/20190628073434/pub/media ] as vagrant@34.66.18.125
+ DEBUG [e58de598] Command: [ -L /var/www/html/releases/20190628073434/pub/media ]
+ DEBUG [38e3dfa6] Finished in 1.124 seconds with exit status 1 (failed).
+ DEBUG [74c9a348] Running [ -d /var/www/html/releases/20190628073434/pub/media ] as vagrant@34.66.18.125
+ DEBUG [74c9a348] Command: [ -d /var/www/html/releases/20190628073434/pub/media ]
+ DEBUG [735e78c3] Finished in 1.125 seconds with exit status 0 (successful).
+  INFO [58dae94f] Running /usr/bin/env rm -rf /var/www/html/releases/20190628073434/pub/media as vagrant@34.66.18.125
+ DEBUG [58dae94f] Command: /usr/bin/env rm -rf /var/www/html/releases/20190628073434/pub/media
+  INFO [96534c6e] Finished in 1.226 seconds with exit status 0 (successful).
+  INFO [514f4ed6] Running /usr/bin/env ln -s /var/www/html/shared/pub/media /var/www/html/releases/20190628073434/pub/media as vagrant@34.66.18.125
+ DEBUG [514f4ed6] Command: /usr/bin/env ln -s /var/www/html/shared/pub/media /var/www/html/releases/20190628073434/pub/media
+  INFO [fb078dde] Finished in 1.227 seconds with exit status 0 (successful).
+ DEBUG [f632d0c4] Running [ -L /var/www/html/releases/20190628073434/pub/sitemaps ] as vagrant@34.66.18.125
+ DEBUG [f632d0c4] Command: [ -L /var/www/html/releases/20190628073434/pub/sitemaps ]
+ DEBUG [3a156e26] Finished in 1.226 seconds with exit status 1 (failed).
+ DEBUG [58ebfb42] Running [ -d /var/www/html/releases/20190628073434/pub/sitemaps ] as vagrant@34.66.18.125
+ DEBUG [58ebfb42] Command: [ -d /var/www/html/releases/20190628073434/pub/sitemaps ]
+ DEBUG [793739e1] Finished in 1.124 seconds with exit status 1 (failed).
+  INFO [43326fa9] Running /usr/bin/env ln -s /var/www/html/shared/pub/sitemaps /var/www/html/releases/20190628073434/pub/sitemaps as vagrant@34.66.18.125
+ DEBUG [43326fa9] Command: /usr/bin/env ln -s /var/www/html/shared/pub/sitemaps /var/www/html/releases/20190628073434/pub/sitemaps
+  INFO [8721b382] Finished in 1.227 seconds with exit status 0 (successful).
+ DEBUG [8fa938b7] Running [ -L /var/www/html/releases/20190628073434/var/backups ] as vagrant@34.66.18.125
+ DEBUG [8fa938b7] Command: [ -L /var/www/html/releases/20190628073434/var/backups ]
+ DEBUG [033504b1] Finished in 1.039 seconds with exit status 1 (failed).
+ DEBUG [86d8795b] Running [ -d /var/www/html/releases/20190628073434/var/backups ] as vagrant@34.66.18.125
+ DEBUG [86d8795b] Command: [ -d /var/www/html/releases/20190628073434/var/backups ]
+ DEBUG [857923e8] Finished in 1.099 seconds with exit status 1 (failed).
+  INFO [3add7b2d] Running /usr/bin/env ln -s /var/www/html/shared/var/backups /var/www/html/releases/20190628073434/var/backups as vagrant@34.66.18.125
+ DEBUG [3add7b2d] Command: /usr/bin/env ln -s /var/www/html/shared/var/backups /var/www/html/releases/20190628073434/var/backups
+  INFO [4c684d88] Finished in 1.236 seconds with exit status 0 (successful).
+ DEBUG [d7926cf9] Running [ -L /var/www/html/releases/20190628073434/var/composer_home ] as vagrant@34.66.18.125
+ DEBUG [d7926cf9] Command: [ -L /var/www/html/releases/20190628073434/var/composer_home ]
+ DEBUG [6eafaa7f] Finished in 1.227 seconds with exit status 1 (failed).
+ DEBUG [355cf424] Running [ -d /var/www/html/releases/20190628073434/var/composer_home ] as vagrant@34.66.18.125
+ DEBUG [355cf424] Command: [ -d /var/www/html/releases/20190628073434/var/composer_home ]
+ DEBUG [55a3566e] Finished in 1.226 seconds with exit status 0 (successful).
+  INFO [3137c4ed] Running /usr/bin/env rm -rf /var/www/html/releases/20190628073434/var/composer_home as vagrant@34.66.18.125
+ DEBUG [3137c4ed] Command: /usr/bin/env rm -rf /var/www/html/releases/20190628073434/var/composer_home
+  INFO [b2f00ad6] Finished in 1.227 seconds with exit status 0 (successful).
+  INFO [62079049] Running /usr/bin/env ln -s /var/www/html/shared/var/composer_home /var/www/html/releases/20190628073434/var/composer_home as vagrant@34.66.18.125
+ DEBUG [62079049] Command: /usr/bin/env ln -s /var/www/html/shared/var/composer_home /var/www/html/releases/20190628073434/var/composer_home
+  INFO [6a4ae35d] Finished in 1.226 seconds with exit status 0 (successful).
+ DEBUG [2424b2c2] Running [ -L /var/www/html/releases/20190628073434/var/importexport ] as vagrant@34.66.18.125
+ DEBUG [2424b2c2] Command: [ -L /var/www/html/releases/20190628073434/var/importexport ]
+ DEBUG [4092044b] Finished in 1.039 seconds with exit status 1 (failed).
+ DEBUG [08273ba3] Running [ -d /var/www/html/releases/20190628073434/var/importexport ] as vagrant@34.66.18.125
+ DEBUG [08273ba3] Command: [ -d /var/www/html/releases/20190628073434/var/importexport ]
+ DEBUG [c0e2db8b] Finished in 1.208 seconds with exit status 1 (failed).
+  INFO [3bd7b5f1] Running /usr/bin/env ln -s /var/www/html/shared/var/importexport /var/www/html/releases/20190628073434/var/importexport as vagrant@34.66.18.125
+ DEBUG [3bd7b5f1] Command: /usr/bin/env ln -s /var/www/html/shared/var/importexport /var/www/html/releases/20190628073434/var/importexport
+  INFO [4263ba4a] Finished in 1.229 seconds with exit status 0 (successful).
+ DEBUG [76c63534] Running [ -L /var/www/html/releases/20190628073434/var/import_history ] as vagrant@34.66.18.125
+ DEBUG [76c63534] Command: [ -L /var/www/html/releases/20190628073434/var/import_history ]
+ DEBUG [842576e9] Finished in 1.225 seconds with exit status 1 (failed).
+ DEBUG [722efce8] Running [ -d /var/www/html/releases/20190628073434/var/import_history ] as vagrant@34.66.18.125
+ DEBUG [722efce8] Command: [ -d /var/www/html/releases/20190628073434/var/import_history ]
+ DEBUG [db9fde5f] Finished in 1.227 seconds with exit status 1 (failed).
+  INFO [3a2fbec8] Running /usr/bin/env ln -s /var/www/html/shared/var/import_history /var/www/html/releases/20190628073434/var/import_history as vagrant@34.66.18.125
+ DEBUG [3a2fbec8] Command: /usr/bin/env ln -s /var/www/html/shared/var/import_history /var/www/html/releases/20190628073434/var/import_history
+  INFO [cd064bb4] Finished in 1.128 seconds with exit status 0 (successful).
+ DEBUG [002a2e91] Running [ -L /var/www/html/releases/20190628073434/var/log ] as vagrant@34.66.18.125
+ DEBUG [002a2e91] Command: [ -L /var/www/html/releases/20190628073434/var/log ]
+ DEBUG [2ff9da96] Finished in 1.221 seconds with exit status 1 (failed).
+ DEBUG [491bfdab] Running [ -d /var/www/html/releases/20190628073434/var/log ] as vagrant@34.66.18.125
+ DEBUG [491bfdab] Command: [ -d /var/www/html/releases/20190628073434/var/log ]
+ DEBUG [3648c069] Finished in 1.128 seconds with exit status 0 (successful).
+  INFO [886e6723] Running /usr/bin/env rm -rf /var/www/html/releases/20190628073434/var/log as vagrant@34.66.18.125
+ DEBUG [886e6723] Command: /usr/bin/env rm -rf /var/www/html/releases/20190628073434/var/log
+  INFO [3dd4ea64] Finished in 1.204 seconds with exit status 0 (successful).
+  INFO [1a909917] Running /usr/bin/env ln -s /var/www/html/shared/var/log /var/www/html/releases/20190628073434/var/log as vagrant@34.66.18.125
+ DEBUG [1a909917] Command: /usr/bin/env ln -s /var/www/html/shared/var/log /var/www/html/releases/20190628073434/var/log
+  INFO [19106363] Finished in 1.110 seconds with exit status 0 (successful).
+ DEBUG [22713b54] Running [ -L /var/www/html/releases/20190628073434/var/session ] as vagrant@34.66.18.125
+ DEBUG [22713b54] Command: [ -L /var/www/html/releases/20190628073434/var/session ]
+ DEBUG [68d79177] Finished in 1.131 seconds with exit status 1 (failed).
+ DEBUG [42a8aaee] Running [ -d /var/www/html/releases/20190628073434/var/session ] as vagrant@34.66.18.125
+ DEBUG [42a8aaee] Command: [ -d /var/www/html/releases/20190628073434/var/session ]
+ DEBUG [bc88a2bc] Finished in 1.233 seconds with exit status 1 (failed).
+  INFO [8dddfe13] Running /usr/bin/env ln -s /var/www/html/shared/var/session /var/www/html/releases/20190628073434/var/session as vagrant@34.66.18.125
+ DEBUG [8dddfe13] Command: /usr/bin/env ln -s /var/www/html/shared/var/session /var/www/html/releases/20190628073434/var/session
+  INFO [1fc3482a] Finished in 1.228 seconds with exit status 0 (successful).
+ DEBUG [7d1e1e2b] Running [ -L /var/www/html/releases/20190628073434/var/tmp ] as vagrant@34.66.18.125
+ DEBUG [7d1e1e2b] Command: [ -L /var/www/html/releases/20190628073434/var/tmp ]
+ DEBUG [5f513fbd] Finished in 1.226 seconds with exit status 1 (failed).
+ DEBUG [4c34fa88] Running [ -d /var/www/html/releases/20190628073434/var/tmp ] as vagrant@34.66.18.125
+ DEBUG [4c34fa88] Command: [ -d /var/www/html/releases/20190628073434/var/tmp ]
+ DEBUG [7ab9eca6] Finished in 1.126 seconds with exit status 1 (failed).
+  INFO [2ee38306] Running /usr/bin/env ln -s /var/www/html/shared/var/tmp /var/www/html/releases/20190628073434/var/tmp as vagrant@34.66.18.125
+ DEBUG [2ee38306] Command: /usr/bin/env ln -s /var/www/html/shared/var/tmp /var/www/html/releases/20190628073434/var/tmp
+  INFO [0099dd4a] Finished in 1.225 seconds with exit status 0 (successful).
+ DEBUG [8d989aeb] Running [ -f /var/www/html/releases/20190628073434/app/etc/config.php ] as vagrant@34.66.18.125
+ DEBUG [8d989aeb] Command: [ -f /var/www/html/releases/20190628073434/app/etc/config.php ]
+ DEBUG [f5ef6689] Finished in 1.123 seconds with exit status 0 (successful).
+ DEBUG [981c9264] Running /usr/bin/env php -r '; $cfg = include "/var/www/html/shared/app/etc/env.php";; exit((int)!isset($cfg["install"]["date"]));; ' as vagrant@34.66.18.125
+ DEBUG [981c9264] Command: /usr/bin/env php -r '; $cfg = include "/var/www/html/shared/app/etc/env.php";; exit((int)!isset($cfg["install"]["date"]));; '
+ DEBUG [797eb522] Finished in 1.176 seconds with exit status 0 (successful).
+ DEBUG [6e8f65ab] Running if test ! -d /var/www/html/releases/20190628073434; then echo "Directory does not exist '/var/www/html/releases/20190628073434'" 1>&2; false; fi as vagrant@34.66.18.125
+ DEBUG [6e8f65ab] Command: if test ! -d /var/www/html/releases/20190628073434; then echo "Directory does not exist '/var/www/html/releases/20190628073434'" 1>&2; false; fi
+ DEBUG [ac1934c7] Finished in 1.122 seconds with exit status 0 (successful).
+ DEBUG [242a63e0] Running if test ! -d /var/www/html/releases/20190628073434; then echo "Directory does not exist '/var/www/html/releases/20190628073434'" 1>&2; false; fi as vagrant@34.66.18.125
+ DEBUG [242a63e0] Command: if test ! -d /var/www/html/releases/20190628073434; then echo "Directory does not exist '/var/www/html/releases/20190628073434'" 1>&2; false; fi
+ DEBUG [0153f2f8] Finished in 1.176 seconds with exit status 0 (successful).
+  INFO [4d83514e] Running /usr/bin/env composer install --prefer-dist --no-interaction --no-dev --optimize-autoloader 2>&1 as vagrant@34.66.18.125
+ DEBUG [4d83514e] Command: cd /var/www/html/releases/20190628073434 && /usr/bin/env composer install --prefer-dist --no-interaction --no-dev --optimize-autoloader 2>&1
+ DEBUG [939c7a07] 	Loading composer repositories with package information
+ DEBUG [939c7a07] 	Installing dependencies from lock file
+ DEBUG [939c7a07] 	Package operations: 0 installs, 0 updates, 84 removals
+ DEBUG [939c7a07] 	  - Removing webmozart/assert (1.4.0)
+ DEBUG [939c7a07] 	Removing Webmozart/Assert
+ DEBUG [939c7a07] 	  - Removing vlucas/phpdotenv (v2.6.1)
+ DEBUG [939c7a07] 	Removing Vlucas/Phpdotenv
+ DEBUG [939c7a07] 	  - Removing theseer/tokenizer (1.1.3)
+ DEBUG [939c7a07] 	Removing Theseer/Tokenizer
+ DEBUG [939c7a07] 	  - Removing theseer/fdomdocument (1.6.6)
+ DEBUG [939c7a07] 	Removing Theseer/Fdomdocument
+ DEBUG [939c7a07] 	  - Removing symfony/yaml (v3.4.29)
+ DEBUG [939c7a07] 	Removing Symfony/Yaml
+ DEBUG [939c7a07] 	  - Removing symfony/stopwatch (v4.3.2)
+ DEBUG [939c7a07] 	Removing Symfony/Stopwatch
+ DEBUG [939c7a07] 	  - Removing symfony/service-contracts (v1.1.5)
+ DEBUG [939c7a07] 	Removing Symfony/ServiceContracts
+ DEBUG [939c7a07] 	  - Removing symfony/polyfill-php72 (v1.11.0)
+ DEBUG [939c7a07] 	Removing Symfony/PolyfillPhp72
+ DEBUG [939c7a07] 	  - Removing symfony/polyfill-php70 (v1.11.0)
+ DEBUG [939c7a07] 	Removing Symfony/PolyfillPhp70
+ DEBUG [939c7a07] 	  - Removing symfony/polyfill-intl-idn (v1.11.0)
+ DEBUG [939c7a07] 	Removing Symfony/PolyfillIntlIdn
+ DEBUG [939c7a07] 	  - Removing symfony/mime (v4.3.2)
+ DEBUG [939c7a07] 	Removing Symfony/Mime
+ DEBUG [939c7a07] 	  - Removing symfony/http-foundation (v4.3.2)
+ DEBUG [939c7a07] 	Removing Symfony/HttpFoundation
+ DEBUG [939c7a07] 	  - Removing symfony/dom-crawler (v4.3.2)
+ DEBUG [939c7a07] 	Removing Symfony/DomCrawler
+ DEBUG [939c7a07] 	  - Removing symfony/dependency-injection (v4.3.2)
+ DEBUG [939c7a07] 	Removing Symfony/DependencyInjection
+ DEBUG [939c7a07] 	  - Removing symfony/config (v4.3.2)
+ DEBUG [939c7a07] 	Removing Symfony/Config
+ DEBUG [939c7a07] 	  - Removing symfony/browser-kit (v4.3.2)
+ DEBUG [939c7a07] 	Removing Symfony/BrowserKit
+ DEBUG [939c7a07] 	  - Removing squizlabs/php_codesniffer (3.3.1)
+ DEBUG [939c7a07] 	Removing Squizlabs/Php_codesniffer
+ DEBUG [939c7a07] 	  - Removing sebastian/version (2.0.1)
+ DEBUG [939c7a07] 	Removing Sebastian/Version
+ DEBUG [939c7a07] 	  - Removing sebastian/resource-operations (1.0.0)
+ DEBUG [939c7a07] 	Removing Sebastian/ResourceOperations
+ DEBUG [939c7a07] 	  - Removing sebastian/recursion-context (3.0.0)
+ DEBUG [939c7a07] 	Removing Sebastian/RecursionContext
+ DEBUG [939c7a07] 	  - Removing sebastian/phpcpd (3.0.1)
+ DEBUG [939c7a07] 	Removing Sebastian/Phpcpd
+ DEBUG [939c7a07] 	  - Removing sebastian/object-reflector (1.1.1)
+ DEBUG [939c7a07] 	Removing Sebastian/ObjectReflector
+ DEBUG [939c7a07] 	  - Removing sebastian/object-enumerator (3.0.3)
+ DEBUG [939c7a07] 	Removing Sebastian/ObjectEnumerator
+ DEBUG [939c7a07] 	  - Removing sebastian/global-state (2.0.0)
+ DEBUG [939c7a07] 	Removing Sebastian/GlobalState
+ DEBUG [939c7a07] 	  - Removing sebastian/finder-facade (1.2.2)
+ DEBUG [939c7a07] 	Removing Sebastian/FinderFacade
+ DEBUG [939c7a07] 	  - Removing sebastian/exporter (3.1.0)
+ DEBUG [939c7a07] 	Removing Sebastian/Exporter
+ DEBUG [939c7a07] 	  - Removing sebastian/environment (3.1.0)
+ DEBUG [939c7a07] 	Removing Sebastian/Environment
+ DEBUG [939c7a07] 	  - Removing sebastian/diff (2.0.1)
+ DEBUG [939c7a07] 	Removing Sebastian/Diff
+ DEBUG [939c7a07] 	  - Removing sebastian/comparator (2.1.3)
+ DEBUG [939c7a07] 	Removing Sebastian/Comparator
+ DEBUG [939c7a07] 	  - Removing sebastian/code-unit-reverse-lookup (1.0.1)
+ DEBUG [939c7a07] 	Removing Sebastian/CodeUnitReverseLookup
+ DEBUG [939c7a07] 	  - Removing phpunit/phpunit-mock-objects (5.0.10)
+ DEBUG [939c7a07] 	Removing Phpunit/PhpunitMockObjects
+ DEBUG [939c7a07] 	  - Removing phpunit/phpunit (6.5.14)
+ DEBUG [939c7a07] 	Removing Phpunit/Phpunit
+ DEBUG [939c7a07] 	  - Removing phpunit/php-token-stream (2.0.2)
+ DEBUG [939c7a07] 	Removing Phpunit/PhpTokenStream
+ DEBUG [939c7a07] 	  - Removing phpunit/php-timer (1.0.9)
+ DEBUG [939c7a07] 	Removing Phpunit/PhpTimer
+ DEBUG [939c7a07] 	  - Removing phpunit/php-text-template (1.2.1)
+ DEBUG [939c7a07] 	Removing Phpunit/PhpTextTemplate
+ DEBUG [939c7a07] 	  - Removing phpunit/php-file-iterator (1.4.5)
+ DEBUG [939c7a07] 	Removing Phpunit/PhpFileIterator
+ DEBUG [939c7a07] 	  - Removing phpunit/php-code-coverage (5.3.2)
+ DEBUG [939c7a07] 	Removing Phpunit/PhpCodeCoverage
+ DEBUG [939c7a07] 	  - Removing phpspec/prophecy (1.8.1)
+ DEBUG [939c7a07] 	Removing Phpspec/Prophecy
+ DEBUG [939c7a07] 	  - Removing phpoption/phpoption (1.5.0)
+ DEBUG [939c7a07] 	Removing Phpoption/Phpoption
+ DEBUG [939c7a07] 	  - Removing phpmd/phpmd (2.6.0)
+ DEBUG [939c7a07] 	Removing Phpmd/Phpmd
+ DEBUG [939c7a07] 	  - Removing phpdocumentor/type-resolver (0.4.0)
+ DEBUG [939c7a07] 	Removing Phpdocumentor/TypeResolver
+ DEBUG [939c7a07] 	  - Removing phpdocumentor/reflection-docblock (4.3.1)
+ DEBUG [939c7a07] 	Removing Phpdocumentor/ReflectionDocblock
+ DEBUG [939c7a07] 	  - Removing phpdocumentor/reflection-common (1.0.1)
+ DEBUG [939c7a07] 	Removing Phpdocumentor/ReflectionCommon
+ DEBUG [939c7a07] 	  - Removing phpcollection/phpcollection (0.5.0)
+ DEBUG [939c7a07] 	Removing Phpcollection/Phpcollection
+ DEBUG [939c7a07] 	  - Removing php-cs-fixer/diff (v1.3.0)
+ DEBUG [939c7a07] 	Removing Php-cs-fixer/Diff
+ DEBUG [939c7a07] 	  - Removing phar-io/version (1.0.1)
+ DEBUG [939c7a07] 	Removing Phar-io/Version
+ DEBUG [939c7a07] 	  - Removing phar-io/manifest (1.0.1)
+ DEBUG [939c7a07] 	Removing Phar-io/Manifest
+ DEBUG [939c7a07] 	  - Removing pdepend/pdepend (2.5.2)
+ DEBUG [939c7a07] 	Removing Pdepend/Pdepend
+ DEBUG [939c7a07] 	  - Removing myclabs/deep-copy (1.9.1)
+ DEBUG [939c7a07] 	Removing Myclabs/DeepCopy
+ DEBUG [939c7a07] 	  - Removing mustache/mustache (v2.12.0)
+ DEBUG [939c7a07] 	Removing Mustache/Mustache
+ DEBUG [939c7a07] 	  - Removing moontoast/math (1.1.2)
+ DEBUG [939c7a07] 	Removing Moontoast/Math
+ DEBUG [939c7a07] 	  - Removing mikey179/vfsstream (v1.6.6)
+ DEBUG [939c7a07] 	Removing Mikey179/Vfsstream
+ DEBUG [939c7a07] 	  - Removing magento/magento2-functional-testing-framework (2.3.14)
+ DEBUG [939c7a07] 	Removing Magento/Magento2FunctionalTestingFramework
+ DEBUG [939c7a07] 	  - Removing magento/magento-coding-standard (1.0.2)
+ DEBUG [939c7a07] 	Removing Magento/MagentoCodingStandard
+ DEBUG [939c7a07] 	  - Removing lusitanian/oauth (v0.8.11)
+ DEBUG [939c7a07] 	Removing Lusitanian/Oauth
+ DEBUG [939c7a07] 	  - Removing league/container (2.4.1)
+ DEBUG [939c7a07] 	Removing League/Container
+ DEBUG [939c7a07] 	  - Removing jms/serializer (1.14.0)
+ DEBUG [939c7a07] 	Removing Jms/Serializer
+ DEBUG [939c7a07] 	  - Removing jms/parser-lib (1.0.0)
+ DEBUG [939c7a07] 	Removing Jms/ParserLib
+ DEBUG [939c7a07] 	  - Removing jms/metadata (1.7.0)
+ DEBUG [939c7a07] 	Removing Jms/Metadata
+ DEBUG [939c7a07] 	  - Removing grasmash/yaml-expander (1.4.0)
+ DEBUG [939c7a07] 	Removing Grasmash/YamlExpander
+ DEBUG [939c7a07] 	  - Removing grasmash/expander (1.0.0)
+ DEBUG [939c7a07] 	Removing Grasmash/Expander
+ DEBUG [939c7a07] 	  - Removing fzaninotto/faker (v1.8.0)
+ DEBUG [939c7a07] 	Removing Fzaninotto/Faker
+ DEBUG [939c7a07] 	  - Removing friendsofphp/php-cs-fixer (v2.13.3)
+ DEBUG [939c7a07] 	Removing Friendsofphp/PhpCsFixer
+ DEBUG [939c7a07] 	  - Removing flow/jsonpath (0.4.0)
+ DEBUG [939c7a07] 	Removing Flow/Jsonpath
+ DEBUG [939c7a07] 	  - Removing facebook/webdriver (1.7.1)
+ DEBUG [939c7a07] 	Removing Facebook/Webdriver
+ DEBUG [939c7a07] 	  - Removing epfremme/swagger-php (v2.0.0)
+ DEBUG [939c7a07] 	Removing Epfremme/SwaggerPhp
+ DEBUG [939c7a07] 	  - Removing doctrine/lexer (1.0.2)
+ DEBUG [939c7a07] 	Removing Doctrine/Lexer
+ DEBUG [939c7a07] 	  - Removing doctrine/instantiator (1.2.0)
+ DEBUG [939c7a07] 	Removing Doctrine/Instantiator
+ DEBUG [939c7a07] 	  - Removing doctrine/collections (v1.6.2)
+ DEBUG [939c7a07] 	Removing Doctrine/Collections
+ DEBUG [939c7a07] 	  - Removing doctrine/annotations (v1.6.1)
+ DEBUG [939c7a07] 	Removing Doctrine/Annotations
+ DEBUG [939c7a07] 	  - Removing dflydev/dot-access-data (v1.1.0)
+ DEBUG [939c7a07] 	Removing Dflydev/DotAccessData
+ DEBUG [939c7a07] 	  - Removing consolidation/self-update (1.1.5)
+ DEBUG [939c7a07] 	Removing Consolidation/SelfUpdate
+ DEBUG [939c7a07] 	  - Removing consolidation/robo (1.4.9)
+ DEBUG [939c7a07] 	Removing Consolidation/Robo
+ DEBUG [939c7a07] 	  - Removing consolidation/output-formatters (3.5.0)
+ DEBUG [939c7a07] 	Removing Consolidation/OutputFormatters
+ DEBUG [939c7a07] 	  - Removing consolidation/log (1.1.1)
+ DEBUG [939c7a07] 	Removing Consolidation/Log
+ DEBUG [939c7a07] 	  - Removing consolidation/config (1.2.1)
+ DEBUG [939c7a07] 	Removing Consolidation/Config
+ DEBUG [939c7a07] 	  - Removing consolidation/annotated-command (2.12.0)
+ DEBUG [939c7a07] 	Removing Consolidation/AnnotatedCommand
+ DEBUG [939c7a07] 	  - Removing codeception/stub (2.1.0)
+ DEBUG [939c7a07] 	Removing Codeception/Stub
+ DEBUG [939c7a07] 	  - Removing codeception/phpunit-wrapper (6.6.1)
+ DEBUG [939c7a07] 	Removing Codeception/PhpunitWrapper
+ DEBUG [939c7a07] 	  - Removing codeception/codeception (2.4.5)
+ DEBUG [939c7a07] 	Removing Codeception/Codeception
+ DEBUG [939c7a07] 	  - Removing behat/gherkin (v4.6.0)
+ DEBUG [939c7a07] 	Removing Behat/Gherkin
+ DEBUG [939c7a07] 	  - Removing allure-framework/allure-phpunit (1.2.3)
+ DEBUG [939c7a07] 	Removing Allure-framework/AllurePhpunit
+ DEBUG [939c7a07] 	  - Removing allure-framework/allure-php-api (1.1.4)
+ DEBUG [939c7a07] 	Removing Allure-framework/AllurePhpApi
+ DEBUG [939c7a07] 	  - Removing allure-framework/allure-codeception (1.3.0)
+ DEBUG [939c7a07] 	Removing Allure-framework/AllureCodeception
+ DEBUG [939c7a07] 	Generating optimized autoload files
+  INFO [939c7a07] Finished in 7.677 seconds with exit status 0 (successful).
+ DEBUG [83d77334] Running [ -f /var/www/html/releases/20190628073434/update/composer.json ] as vagrant@34.66.18.125
+ DEBUG [83d77334] Command: [ -f /var/www/html/releases/20190628073434/update/composer.json ]
+ DEBUG [4150ecc5] Finished in 0.611 seconds with exit status 0 (successful).
+  INFO [d99b4a74] Running /usr/bin/env composer install --prefer-dist --no-interaction --no-dev --optimize-autoloader -d ./update 2>&1 as vagrant@34.66.18.125
+ DEBUG [d99b4a74] Command: cd /var/www/html/releases/20190628073434 && /usr/bin/env composer install --prefer-dist --no-interaction --no-dev --optimize-autoloader -d ./update 2>&1
+ DEBUG [93bacbc3] 	Loading composer repositories with package information
+ DEBUG [93bacbc3] 	Installing dependencies from lock file
+ DEBUG [93bacbc3] 	Package operations: 0 installs, 0 updates, 29 removals
+ DEBUG [93bacbc3] 	  - Removing symfony/debug (v3.0.9)
+ DEBUG [93bacbc3] 	  - Removing phpunit/phpunit (7.0.3)
+ DEBUG [93bacbc3] 	  - Removing myclabs/deep-copy (1.7.0)
+ DEBUG [93bacbc3] 	  - Removing phar-io/manifest (1.0.1)
+ DEBUG [93bacbc3] 	  - Removing phar-io/version (1.0.1)
+ DEBUG [93bacbc3] 	  - Removing phpspec/prophecy (1.7.5)
+ DEBUG [93bacbc3] 	  - Removing phpunit/php-code-coverage (6.0.1)
+ DEBUG [93bacbc3] 	  - Removing sebastian/code-unit-reverse-lookup (1.0.1)
+ DEBUG [93bacbc3] 	  - Removing theseer/tokenizer (1.1.0)
+ DEBUG [93bacbc3] 	  - Removing phpunit/php-file-iterator (1.4.5)
+ DEBUG [93bacbc3] 	  - Removing phpunit/php-timer (2.0.0)
+ DEBUG [93bacbc3] 	  - Removing phpunit/phpunit-mock-objects (6.0.1)
+ DEBUG [93bacbc3] 	  - Removing doctrine/instantiator (1.1.0)
+ DEBUG [93bacbc3] 	  - Removing phpunit/php-text-template (1.2.1)
+ DEBUG [93bacbc3] 	  - Removing sebastian/comparator (2.1.3)
+ DEBUG [93bacbc3] 	  - Removing sebastian/diff (3.0.0)
+ DEBUG [93bacbc3] 	  - Removing sebastian/environment (3.1.0)
+ DEBUG [93bacbc3] 	  - Removing sebastian/exporter (3.1.0)
+ DEBUG [93bacbc3] 	  - Removing sebastian/global-state (2.0.0)
+ DEBUG [93bacbc3] 	  - Removing sebastian/object-enumerator (3.0.3)
+ DEBUG [93bacbc3] 	  - Removing sebastian/object-reflector (1.1.1)
+ DEBUG [93bacbc3] 	  - Removing sebastian/recursion-context (3.0.0)
+ DEBUG [93bacbc3] 	  - Removing sebastian/resource-operations (1.0.0)
+ DEBUG [93bacbc3] 	  - Removing sebastian/version (2.0.1)
+ DEBUG [93bacbc3] 	  - Removing phpunit/php-token-stream (3.0.0)
+ DEBUG [93bacbc3] 	  - Removing phpdocumentor/reflection-docblock (4.3.0)
+ DEBUG [93bacbc3] 	  - Removing phpdocumentor/type-resolver (0.4.0)
+ DEBUG [93bacbc3] 	  - Removing phpdocumentor/reflection-common (1.0.1)
+ DEBUG [93bacbc3] 	  - Removing webmozart/assert (1.3.0)
+ DEBUG [93bacbc3] 	Generating optimized autoload files
+  INFO [93bacbc3] Finished in 1.953 seconds with exit status 0 (successful).
+ DEBUG [ed39a887] Running if test ! -d /var/www/html/releases/20190628073434; then echo "Directory does not exist '/var/www/html/releases/20190628073434'" 1>&2; false; fi as vagrant@34.66.18.125
+ DEBUG [ed39a887] Command: if test ! -d /var/www/html/releases/20190628073434; then echo "Directory does not exist '/var/www/html/releases/20190628073434'" 1>&2; false; fi
+ DEBUG [d36324ed] Finished in 0.600 seconds with exit status 0 (successful).
+ DEBUG [6f25c722] Running /usr/bin/env php -f /var/www/html/releases/20190628073434/bin/magento -- -V --no-ansi as vagrant@34.66.18.125
+ DEBUG [6f25c722] Command: cd /var/www/html/releases/20190628073434 && /usr/bin/env php -f /var/www/html/releases/20190628073434/bin/magento -- -V --no-ansi
+ DEBUG [fa890681] 	Class Magento\Framework\App\ResourceConnection\Proxy does not exist
