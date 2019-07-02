@@ -61,12 +61,33 @@ Recording Changes in GIT repository
 			git commit Ðm Òchange in fileÓ
 		
 
+Creating .gitigore file in GIT repository
+
+	.gitignore file is used for file which we donÕt want to keep track of it.
+
+		cat .gitignore
+			*.[oa]		this will ignore file ending with o or a
+			*~			this will ignore file ending with ~
+			!.a			this will override other rules
+			/TODO			only ignore TODO file 
+			Build/		ignore all file in Build directory
+			doc/*.txt		ignore txt file in doc directory 
+			doc/**/*.pdf	ignore all pdf file in doc directory
+
+To See changes to files
+	we can see the changes done in file by using command below
+		git diff
+		git diff --staged
+
+Committing change to local repository
+		
+	Enter below command, this will open default editor, type message
+		git commit
+		git commit Ðm ÒHelloÓ
 
 
-
-
-
-	create repository locally & connect to remote github repository
+	
+create repository locally & connect to remote github repository
 		git init 		--> this command will create git repository locally
 		login to github and create repository then issue below command in local repositor
 		git remote add origin https://github.com/rizwanwakil2019/repository_name
