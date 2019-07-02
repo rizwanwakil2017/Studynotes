@@ -1,12 +1,70 @@
 Learning GIT
-create repositor locally
+Installing GIT
+	run the below command in terminal
+	sudo apt-get install git-all
+
+First Time GIT setup
+
+	run the below command to see current setting and files
+		git config Ðlist --show-origin
+		git config --global user.name ÒRizwan KhanÓ
+		git config --global user.email Òrizwanwakil2018@gmail.comÓ
+
+
+Default editor GIT setup
+	By default, git will use system editor but we can setup any editor we can 
+	Setup notepad++ by specifying path.
+		git config --global core.editor emacs
+
+Checking GIT settings
+	run the below command and will show the setting
+		git config --list
+		git config user.name
+
+How to get help for GIT
+	We can get help regarding GIT command by running below command
+       	git help command_name
+		git command_name help or git command_name -h
+		man git-comand_name
+	for example
+		git help config
+		git add Ðh
+
+Creating a GIT repository
+	We can get git repository by two ways
+1. Convert local directory in repository
+2. Clone from github
+Move the desired directory, where we want git repository, run below command
 	git init
-setting global information
-	git config --global user.name "Rizwan Khan"
-	git config --global user.email "rizwanwakil2019@gmail.com"
-Listing Global information
-	git config --list
-Starting Project in two methods
+to create repository on existing repository, run below command
+	git clone https://repository_url.git  directory_name
+	user@github.com:path_to_repository
+
+
+
+
+
+
+
+
+
+Recording Changes in GIT repository
+	Git repository file status
+		git status or git status -s
+	Adding new or modified files to repository
+		create a file or modify a file first
+		first git the status using command
+			git status
+		then add file to repository using command to be tracked
+			git add .   or git add file_name
+		then add the file to local repository
+			git commit Ðm Òchange in fileÓ
+		
+
+
+
+
+
 
 	create repository locally & connect to remote github repository
 		git init 		--> this command will create git repository locally
