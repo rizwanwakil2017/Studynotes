@@ -1,0 +1,251 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 12 Jun 2019 16:36:06 at http://magedemo.solwininfotech.com/magento2/freego/theme/white +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" http://magedemo.solwininfotech.com/magento2/freego/theme/white -O1 "Z:\My Web Sites\magento_theme_project" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+16:44:42	Error: 	"Not Found" (404) at link magedemo.solwininfotech.com/magento2/freego/theme/pub/static/frontend/Solwin/freego/en_US/Solwin_Cpanel/css/grabbing.png (from magedemo.solwininfotech.com/magento2/freego/theme/pub/static/frontend/Solwin/freego/en_US/Solwin_Cpanel/css/owl.carousel.css)
+16:44:42	Error: 	"Not Found" (404) at link magedemo.solwininfotech.com/magento2/freego/theme/pub/static/frontend/Solwin/freego/en_US/Solwin_Cpanel/css/AjaxLoader.gif (from magedemo.solwininfotech.com/magento2/freego/theme/pub/static/frontend/Solwin/freego/en_US/Solwin_Cpanel/css/owl.theme.css)
+16:45:29	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/wishlist/
+16:45:29	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/wishlist/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:12	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/1/
+16:50:12	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/1/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:12	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/2/
+16:50:12	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/2/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:12	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/3/
+16:50:12	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/3/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:12	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/4/
+16:50:12	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/4/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:12	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/5/
+16:50:12	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/5/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:12	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/7/
+16:50:12	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/7/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:12	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/9/
+16:50:12	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/9/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:12	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/10/
+16:50:12	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/10/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:12	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/12/
+16:50:12	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/12/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:12	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/13/
+16:50:12	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/13/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:12	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/120/
+16:50:12	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/120/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:13	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/88/
+16:50:13	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/88/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:13	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/93/
+16:50:13	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/93/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:13	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/98/
+16:50:13	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/98/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:13	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/103/
+16:50:13	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/103/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:22	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/36/cat_id/8/
+16:50:22	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/36/cat_id/8/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:23	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/46/cat_id/8/
+16:50:23	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/46/cat_id/8/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:23	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/45/cat_id/8/
+16:50:23	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/45/cat_id/8/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:23	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/44/cat_id/8/
+16:50:23	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/44/cat_id/8/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:23	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/43/cat_id/8/
+16:50:23	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/43/cat_id/8/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:23	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/42/cat_id/8/
+16:50:23	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/42/cat_id/8/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:24	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/41/cat_id/8/
+16:50:24	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/41/cat_id/8/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:24	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/40/cat_id/8/
+16:50:24	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/40/cat_id/8/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:24	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/39/cat_id/8/
+16:50:24	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/39/cat_id/8/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:49	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/33/cat_id/8/
+16:50:49	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/33/cat_id/8/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:49	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/34/
+16:50:49	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/34/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:49	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/32/cat_id/8/
+16:50:49	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/32/cat_id/8/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:50	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/28/
+16:50:50	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/28/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:50	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/31/
+16:50:50	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/31/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:50	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/29/
+16:50:50	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/29/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:50	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/30/
+16:50:50	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/30/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:50	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/35/
+16:50:50	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/35/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:50	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/37/
+16:50:50	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/37/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:50	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/38/
+16:50:50	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/38/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:51	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/74/cat_id/3/
+16:50:51	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/74/cat_id/3/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:51	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/84/cat_id/3/
+16:50:51	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/84/cat_id/3/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:51	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/83/cat_id/3/
+16:50:51	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/83/cat_id/3/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:51	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/82/cat_id/3/
+16:50:51	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/82/cat_id/3/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:51	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/81/cat_id/3/
+16:50:51	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/81/cat_id/3/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:52	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/80/cat_id/3/
+16:50:52	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/80/cat_id/3/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:52	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/79/cat_id/3/
+16:50:52	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/79/cat_id/3/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:52	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/78/cat_id/3/
+16:50:52	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/78/cat_id/3/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:50:52	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/77/cat_id/3/
+16:50:52	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/77/cat_id/3/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:08	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/68/cat_id/3/
+16:51:08	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/68/cat_id/3/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:09	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/70/cat_id/3/
+16:51:09	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/70/cat_id/3/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:09	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/67/cat_id/3/
+16:51:09	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/67/cat_id/3/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:09	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/69/cat_id/3/
+16:51:09	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/69/cat_id/3/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:09	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/76/
+16:51:09	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/76/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:09	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/75/
+16:51:09	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/75/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:10	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/71/
+16:51:10	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/71/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:10	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/72/
+16:51:10	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/72/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:10	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/73/
+16:51:10	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/73/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:11	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/95/cat_id/4/
+16:51:11	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/95/cat_id/4/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:11	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/104/cat_id/4/
+16:51:11	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/104/cat_id/4/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:11	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/102/cat_id/4/
+16:51:11	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/102/cat_id/4/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:12	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/101/cat_id/4/
+16:51:12	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/101/cat_id/4/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:12	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/100/cat_id/4/
+16:51:12	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/100/cat_id/4/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:12	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/99/cat_id/4/
+16:51:12	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/99/cat_id/4/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:12	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/97/cat_id/4/
+16:51:12	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/97/cat_id/4/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:28	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/87/cat_id/4/
+16:51:28	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/87/cat_id/4/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:28	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/86/
+16:51:28	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/86/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:28	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/85/
+16:51:28	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/85/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:29	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/96/
+16:51:29	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/96/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:29	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/94/
+16:51:29	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/94/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:29	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/89/
+16:51:29	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/89/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:29	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/92/
+16:51:29	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/92/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:29	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/90/
+16:51:29	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/90/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:29	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/91/
+16:51:29	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/91/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:30	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/57/cat_id/5/
+16:51:30	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/57/cat_id/5/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:30	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/66/cat_id/5/
+16:51:30	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/66/cat_id/5/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:30	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/65/cat_id/5/
+16:51:30	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/65/cat_id/5/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:31	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/64/cat_id/5/
+16:51:31	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/64/cat_id/5/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:31	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/63/cat_id/5/
+16:51:31	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/63/cat_id/5/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:31	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/62/
+16:51:31	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/62/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:31	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/61/cat_id/5/
+16:51:31	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/61/cat_id/5/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:31	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/60/cat_id/5/
+16:51:31	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/60/cat_id/5/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:31	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/59/cat_id/5/
+16:51:31	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/59/cat_id/5/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:56	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/54/cat_id/5/
+16:51:56	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/54/cat_id/5/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:56	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/52/cat_id/5/
+16:51:56	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/52/cat_id/5/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:56	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/53/cat_id/5/
+16:51:56	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/53/cat_id/5/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:56	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/51/cat_id/5/
+16:51:56	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/51/cat_id/5/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:57	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/55/
+16:51:57	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/55/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:57	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/58/
+16:51:57	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/58/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:57	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/56/
+16:51:57	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/56/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:57	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/49/
+16:51:57	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/49/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:57	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/50/
+16:51:57	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/50/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:57	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/48/
+16:51:57	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/48/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:57	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/47/
+16:51:57	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/47/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:58	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/105/cat_id/6/
+16:51:58	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/105/cat_id/6/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:58	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/106/cat_id/6/
+16:51:58	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/106/cat_id/6/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:58	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/107/cat_id/6/
+16:51:58	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/107/cat_id/6/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:59	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/108/cat_id/6/
+16:51:59	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/108/cat_id/6/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:59	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/109/cat_id/6/
+16:51:59	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/109/cat_id/6/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:59	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/110/cat_id/6/
+16:51:59	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/110/cat_id/6/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:59	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/111/
+16:51:59	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/111/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:59	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/112/cat_id/6/
+16:51:59	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/112/cat_id/6/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:51:59	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/113/
+16:51:59	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/113/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:13	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/114/
+16:52:13	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/114/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:13	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/116/
+16:52:13	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/116/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:13	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/115/
+16:52:13	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/115/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:13	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/118/
+16:52:13	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/118/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:13	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/119/
+16:52:13	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/119/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:13	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/117/
+16:52:13	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/117/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:14	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/19/cat_id/7/
+16:52:14	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/19/cat_id/7/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:14	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/27/cat_id/7/
+16:52:14	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/27/cat_id/7/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:14	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/26/cat_id/7/
+16:52:14	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/26/cat_id/7/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:15	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/25/cat_id/7/
+16:52:15	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/25/cat_id/7/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:15	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/24/cat_id/7/
+16:52:15	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/24/cat_id/7/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:15	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/23/cat_id/7/
+16:52:15	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/23/cat_id/7/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:15	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/22/
+16:52:15	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/22/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:15	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/21/cat_id/7/
+16:52:15	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/21/cat_id/7/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:15	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/20/
+16:52:15	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/20/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:35	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/16/
+16:52:35	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/16/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:36	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/17/
+16:52:36	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/17/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:36	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/18/
+16:52:36	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/18/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:36	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/15/
+16:52:36	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/15/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:36	Warning: 	Found for magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/14/
+16:52:36	Warning: 	File has moved from magedemo.solwininfotech.com/magento2/freego/theme/white/sendfriend/product/send/id/14/ to http://magedemo.solwininfotech.com/magento2/freego/theme/white/customer/account/login/
+16:52:36	Error: 	"Not Found" (404) at link magedemo.solwininfotech.com/magento2/freego/theme/pub/static/frontend/Solwin/freego/en_US/mage/images/stripes.png (from magedemo.solwininfotech.com/magento2/freego/theme/pub/static/frontend/Solwin/freego/en_US/mage/gallery/gallery.css)
+16:52:36	Error: 	"Not Found" (404) at link magedemo.solwininfotech.com/magento2/freego/theme/pub/static/frontend/Solwin/freego/en_US/mage/images/footer-stripes.png (from magedemo.solwininfotech.com/magento2/freego/theme/pub/static/frontend/Solwin/freego/en_US/mage/gallery/gallery.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 25 minutes 35 seconds : 1315 links scanned, 1192 files written (77362933 bytes overall) [15818016 bytes received at 10304 bytes/sec], 73534209 bytes transferred using HTTP compression in 1004 files, ratio 15%, 11.8 requests per connection
+(4 errors, 236 warnings, 0 messages)

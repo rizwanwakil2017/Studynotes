@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+magedemo.solwininfotech.com	TRUE	/magento2/freego/theme	FALSE	1999999999	PHPSESSID	uddcj277u362erdhen3o7qfce0
+
