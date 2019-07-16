@@ -61,7 +61,7 @@ Recording Changes in GIT repository
 			git commit –m “change in file”
 		
 
-Creating .gitigore file in GIT repository
+Creating .gitignore file in GIT repository
 
 	.gitignore file is used for file which we don’t want to keep track of it.
 
@@ -79,11 +79,23 @@ To See changes to files
 		git diff
 		git diff --staged
 
-Committing change to local repository
+Tracking new file or adding to Staging area
+	Below command will add untracked file new created or modified file to  
+       tracked file or in to staging area
+		git add file_name		only one file will tracked
+		git add .			all file will be tracked
+
+Taking out file or files from staging to un-staging area
+	git reset HEAD file_name
+
+
+Committing change to local repository	
 		
 	Enter below command, this will open default editor, type message
 		git commit
 		git commit –m “Hello”
+
+		git commit –a –m “record change without using add command”
 
 
 	
@@ -129,7 +141,7 @@ Braches
 		git branch name_of_branch
 	
 	To use branch
-		git checkout -b name_of_branch
+		git checkout name_of_branch
 	
 	To merge branch to master branch
 		git merge name_of_branch
